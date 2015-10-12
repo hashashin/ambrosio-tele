@@ -39,5 +39,8 @@
   "hubot-calculator",
   "hubot-gistme",
   "hubot-youtube",
-  "hubot-browserstack"
+  "hubot-github-assign-issues",
+  "hubot-github-compare",
+  "hubot-github-merge",
+  "hubot-github-pages"
 ]
