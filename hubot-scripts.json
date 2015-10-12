@@ -6,5 +6,6 @@
    "github-search.coffee",
    "github-status.coffee",
    "pypi.coffee",
-   "room-info.coffee"
+   "room-info.coffee",
+   "steam.coffee"
 ]
