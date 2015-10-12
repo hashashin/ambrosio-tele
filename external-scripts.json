@@ -38,5 +38,6 @@
   "hubot-travisci-notifier",
   "hubot-calculator",
   "hubot-gistme",
-  "hubot-youtube"
+  "hubot-youtube",
+  "hubot-browserstack"
 ]
