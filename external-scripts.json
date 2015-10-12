@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-xkcd",
   "hubot-statistics",
-  "hubot-reddit"
+  "hubot-reddit",
+  "hubot-seen"
 ]
