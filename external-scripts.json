@@ -35,5 +35,7 @@
   "hubot-spotify-me",
   "hubot-twitch",
   "hubot-regex",
-  "hubot-travisci-notifier"
+  "hubot-travisci-notifier",
+  "hubot-calculator",
+  "hubot-gistme"
 ]
