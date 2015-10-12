@@ -18,6 +18,7 @@
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "^1.0.0",
     "hubot-in-space": "^2.0.0",
+    "hubot-info": "^0.1.0",
     "hubot-insultos": "^1.0.1",
     "hubot-maps": "0.0.2",
     "hubot-marvin": "0.0.2",
