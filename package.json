@@ -48,6 +48,7 @@
     "hubot-where": "^0.1.0",
     "hubot-wikipedia": "0.0.2",
     "hubot-xkcd": "0.0.3",
+    "hubot-youtube": "^1.0.1",
     "jsdom": "< 4.0.0",
     "pg": "^4.4.2",
     "twit": "1.1.6",
