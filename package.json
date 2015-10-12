@@ -31,7 +31,8 @@
     "hubot-statistics": "^1.2.2",
     "hubot-telegram": "0.0.8",
     "hubot-where": "^0.1.0",
-    "hubot-xkcd": "0.0.3"
+    "hubot-xkcd": "0.0.3",
+    "pg": "^4.4.2"
   },
   "engines": {
     "node": "0.10.x"
