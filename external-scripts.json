@@ -35,6 +35,5 @@
   "hubot-spotify-me",
   "hubot-twitch",
   "hubot-regex",
-  "hubot-travisci-notifier",
-  "hubot-open-weather-map"
+  "hubot-travisci-notifier"
 ]
