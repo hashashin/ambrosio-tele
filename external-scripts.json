@@ -43,5 +43,6 @@
   "hubot-http-status",
   "hubot-hearthstone",
   "hubot-heroku-deploy-notifier",
-  "hubot-heroku-dynos"
+  "hubot-heroku-dynos",
+  "hubot-steamdailydeal"
 ]
