@@ -41,5 +41,6 @@
   "hubot-github-merge",
   "hubot-steam-webapi",
   "hubot-http-status",
-  "hubot-hearthstone"
+  "hubot-hearthstone",
+  "hubot-dynstatus"
 ]
