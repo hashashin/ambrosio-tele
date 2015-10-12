@@ -19,7 +19,6 @@
     "hubot-github-assign-issues": "0.0.2",
     "hubot-github-compare": "^1.1.0",
     "hubot-github-merge": "^1.0.0",
-    "hubot-github-pages": "^1.1.0",
     "hubot-github-repo-event-notifier": "git+https://github.com/hubot-scripts/hubot-github-repo-event-notifier.git",
     "hubot-google-images": "^0.2.2",
     "hubot-google-translate": "^0.2.0",

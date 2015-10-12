@@ -41,6 +41,5 @@
   "hubot-youtube",
   "hubot-github-assign-issues",
   "hubot-github-compare",
-  "hubot-github-merge",
-  "hubot-github-pages"
+  "hubot-github-merge"
 ]
