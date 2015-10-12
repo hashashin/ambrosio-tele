@@ -4,5 +4,6 @@
    "twitter.coffee",
    "twitter_stream.coffee",
    "github-search.coffee",
-   "github-status.coffee"
+   "github-status.coffee",
+   "pypi.coffee"
 ]
