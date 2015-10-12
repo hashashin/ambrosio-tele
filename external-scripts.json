@@ -1,6 +1,5 @@
 [
   "hubot-diagnostics",
-  "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-google-images",
   "hubot-google-translate",
@@ -21,5 +20,9 @@
   "hubot-pagespeed",
   "hubot-rae",
   "hubot-bitcoin",
-  "hubot-in-space"
+  "hubot-in-space",
+  "hubot-explainshell",
+  "hubot-memes",
+  "hubot-todos",
+  "hubot-9gag"
 ]
