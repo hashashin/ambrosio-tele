@@ -32,5 +32,6 @@
   "hubot-xkcd",
   "hubot-hearthstone",
   "hubot-qr-generator",
-  "hubot-spotify-me"
+  "hubot-spotify-me",
+  "hubot-twitch"
 ]
