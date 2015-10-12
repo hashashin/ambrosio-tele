@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-xkcd",
-  "hubot-statistics"
+  "hubot-statistics",
+  "hubot-seen"
 ]
