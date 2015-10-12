@@ -1,1 +1,8 @@
-["pg-brain.coffee", "weather.coffee", "twitter.coffee", "twitter_stream.coffee"]
+[
+   "pg-brain.coffee",
+   "weather.coffee",
+   "twitter.coffee",
+   "twitter_stream.coffee",
+   "github-search.coffee",
+   "github-status.coffee"
+]

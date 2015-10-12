@@ -5,6 +5,7 @@
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
+    "githubot": "^1.0.0",
     "hubot": "^2.16.0",
     "hubot-4chan": "0.0.1",
     "hubot-9gag": "^0.2.0",
