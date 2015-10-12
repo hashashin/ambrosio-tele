@@ -10,6 +10,5 @@
    "botsnack.coffee",
    "wolfram.coffee",
    "xkcd.coffee",
-   "npm.coffee",
    "hackernews.coffee"
 ]
