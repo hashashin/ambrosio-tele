@@ -12,5 +12,14 @@
   "hubot-xkcd",
   "hubot-statistics",
   "hubot-reddit",
-  "hubot-seen"
+  "hubot-seen",
+  "hubot-4chan",
+  "hubot-reminder",
+  "hubot-marvin",
+  "hubot-where",
+  "hubot-at",
+  "hubot-insultos",
+  "hubot-pagespeed",
+  "hubot-rae",
+  "hubot-bitcoin"
 ]
