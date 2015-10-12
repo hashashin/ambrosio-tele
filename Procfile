@@ -1,1 +1,1 @@
-web: node server.js
+web: bin/hubot -a telegram
