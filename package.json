@@ -38,6 +38,7 @@
     "hubot-pugme": "^0.1.0",
     "hubot-qr-generator": "0.0.2",
     "hubot-rae": "^1.0.4",
+    "hubot-reaction": "https://github.com/jakswa/hubot-reaction/tarball/master",
     "hubot-reddit": "0.0.1",
     "hubot-reminder": "0.0.1",
     "hubot-rules": "^0.1.1",

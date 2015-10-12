@@ -44,5 +44,6 @@
   "hubot-hearthstone",
   "hubot-heroku-deploy-notifier",
   "hubot-heroku-dynos",
-  "hubot-steamdailydeal"
+  "hubot-steamdailydeal",
+  "hubot-reaction"
 ]
