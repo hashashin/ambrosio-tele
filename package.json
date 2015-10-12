@@ -37,7 +37,7 @@
     "hubot-where": "^0.1.0",
     "hubot-xkcd": "0.0.3",
     "jsdom": "^6.5.1",
-    "pg": "^4.4.2"
+    "pg": "< 4.0.0"
   },
   "engines": {
     "node": "0.10.x"
