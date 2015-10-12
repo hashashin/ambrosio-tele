@@ -11,6 +11,7 @@
     "hubot-at": "0.0.4",
     "hubot-bitcoin": "^1.0.3",
     "hubot-bookmark": "0.0.4",
+    "hubot-bropages": "0.0.2",
     "hubot-diagnostics": "0.0.1",
     "hubot-explainshell": "^1.1.0",
     "hubot-github-repo-event-notifier": "^1.5.1",
