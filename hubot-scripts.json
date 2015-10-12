@@ -8,5 +8,6 @@
    "pypi.coffee",
    "room-info.coffee",
    "botsnack.coffee",
-   "wolfram.coffee"
+   "wolfram.coffee",
+   "xkcd.coffee"
 ]
