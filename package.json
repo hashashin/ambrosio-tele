@@ -22,6 +22,7 @@
     "hubot-github-merge": "^1.0.0",
     "hubot-github-repo-event-notifier": "git+https://github.com/hubot-scripts/hubot-github-repo-event-notifier.git",
     "hubot-google-images": "^0.2.2",
+    "hubot-hearthstone": "git+https://github.com/hashashin/hubot-hearthstone.git",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "^1.0.0",
     "hubot-http-status": "^0.2.1",

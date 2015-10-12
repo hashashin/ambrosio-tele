@@ -40,5 +40,6 @@
   "hubot-github-compare",
   "hubot-github-merge",
   "hubot-steam-webapi",
-  "hubot-http-status"
+  "hubot-http-status",
+  "hubot-hearthstone"
 ]
