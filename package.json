@@ -15,6 +15,7 @@
     "hubot-explainshell": "^1.1.0",
     "hubot-google-images": "^0.2.2",
     "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "^1.0.0",
     "hubot-in-space": "^2.0.0",
     "hubot-insultos": "^1.0.1",
