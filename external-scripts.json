@@ -33,5 +33,7 @@
   "hubot-hearthstone",
   "hubot-qr-generator",
   "hubot-spotify-me",
-  "hubot-twitch"
+  "hubot-twitch",
+  "hubot-regex",
+  "hubot-travisci-notifier"
 ]
