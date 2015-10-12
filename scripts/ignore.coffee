@@ -14,5 +14,6 @@ module.exports = (robot) ->
 
     if permitted_user user # allow permitted room or user (direct message)
       receive_org.bind(robot)(msg)
+      console.log "approved message, from #{user}"
     else
-      console.log "ignored messge, from #{user}"
+      console.log "ignored message, from #{user}"
