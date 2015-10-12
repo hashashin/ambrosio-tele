@@ -9,5 +9,7 @@
    "room-info.coffee",
    "botsnack.coffee",
    "wolfram.coffee",
-   "xkcd.coffee"
+   "xkcd.coffee",
+   "npm.coffee",
+   "hackernews.coffee"
 ]
