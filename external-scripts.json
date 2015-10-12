@@ -42,5 +42,6 @@
   "hubot-steam-webapi",
   "hubot-http-status",
   "hubot-hearthstone",
-  "hubot-dynstatus"
+  "hubot-dynstatus",
+  "hubot-heroku-deploy-notifier"
 ]

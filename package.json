@@ -25,6 +25,7 @@
     "hubot-google-images": "^0.2.2",
     "hubot-hearthstone": "https://github.com/hashashin/hubot-hearthstone/tarball/master",
     "hubot-help": "^0.1.1",
+    "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-heroku-keepalive": "^1.0.0",
     "hubot-http-status": "^0.2.1",
     "hubot-in-space": "^2.0.0",
