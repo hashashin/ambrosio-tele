@@ -13,6 +13,7 @@
     "hubot-bookmark": "0.0.4",
     "hubot-diagnostics": "0.0.1",
     "hubot-explainshell": "^1.1.0",
+    "hubot-github-repo-event-notifier": "^1.5.1",
     "hubot-google-images": "^0.2.2",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
@@ -42,6 +43,6 @@
   },
   "engines": {
     "node": ">= 0.8.x < 0.13",
-    "npm":  ">= 1.1.x < 3.0.0"
+    "npm": ">= 1.1.x < 3.0.0"
   }
 }

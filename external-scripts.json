@@ -26,5 +26,6 @@
   "hubot-memes",
   "hubot-todos",
   "hubot-9gag",
-  "hubot-info"
+  "hubot-info",
+  "hubot-github-repo-event-notifier"
 ]
