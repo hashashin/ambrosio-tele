@@ -10,5 +10,11 @@
    "botsnack.coffee",
    "wolfram.coffee",
    "xkcd.coffee",
-   "hackernews.coffee"
+   "hackernews.coffee",
+   "class-namer.coffee",
+   "random-user.coffee",
+   "countdown.coffee",
+   "python_library.coffee",
+   "imdb.coffee",
+   "howdoi.coffee"
 ]
