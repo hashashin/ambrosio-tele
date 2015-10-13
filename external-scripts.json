@@ -43,5 +43,6 @@
   "hubot-heroku-deploy-notifier",
   "hubot-heroku-dynos",
   "hubot-steamdailydeal",
-  "hubot-reaction"
+  "hubot-reaction",
+  "hubot-movie"
 ]
