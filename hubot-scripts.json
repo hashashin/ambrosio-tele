@@ -15,5 +15,8 @@
    "countdown.coffee",
    "python_library.coffee",
    "howdoi.coffee",
-   "remember.coffee"
+   "remember.coffee",
+   "stallman.coffee",
+   "catfacts.coffee",
+   "chess.coffee"
 ]
