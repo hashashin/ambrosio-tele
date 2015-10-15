@@ -43,5 +43,8 @@
   "hubot-heroku-dynos",
   "hubot-steamdailydeal",
   "hubot-reaction",
-  "hubot-movie"
+  "hubot-movie",
+  "jobot-storage-util",
+  "hubot-bookmark",
+  "hubot-currency"
 ]
