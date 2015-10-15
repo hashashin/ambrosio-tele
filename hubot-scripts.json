@@ -22,7 +22,5 @@
    "ip.coffee",
    "days_since.coffee",
    "robot-memes.coffee",
-   "isup.coffee",
-   "news.coffee",
-   "sosearch.coffee"
+   "news.coffee"
 ]
