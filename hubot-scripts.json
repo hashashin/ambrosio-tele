@@ -14,5 +14,6 @@
    "random-user.coffee",
    "countdown.coffee",
    "python_library.coffee",
-   "howdoi.coffee"
+   "howdoi.coffee",
+   "remember.coffee"
 ]
