@@ -18,5 +18,12 @@
    "remember.coffee",
    "stallman.coffee",
    "catfacts.coffee",
-   "locpix.coffee"
+   "locpix.coffee",
+   "ip.coffee",
+   "days_since.coffee",
+   "robot-memes.coffee",
+   "isup.coffee",
+   "news.coffee",
+   "sosearch.coffee",
+   "dilbert.coffee"
 ]
