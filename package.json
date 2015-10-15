@@ -63,8 +63,7 @@
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
     "twit": "1.1.6",
     "underscore": "1.4.4",
-    "wolfram": "^0.3.2",
-    "chess": "~0.2.7"
+    "wolfram": "^0.3.2"
   },
   "engines": {
     "node": ">= 0.8.x < 0.11",
