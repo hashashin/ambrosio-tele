@@ -45,5 +45,6 @@
   "hubot-reaction",
   "hubot-movie",
   "hubot-bookmark",
-  "hubot-currency"
+  "hubot-currency",
+  "hubot-redis-brain"
 ]

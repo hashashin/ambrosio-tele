@@ -1,5 +1,4 @@
 [
-   "pg-brain.coffee",
    "weather.coffee",
    "twitter.coffee",
    "twitter_stream.coffee",
