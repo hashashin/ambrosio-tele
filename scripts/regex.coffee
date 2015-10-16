@@ -90,6 +90,6 @@ module.exports = (robot) ->
   else
     history = new RegexUserMessageHistory
 
-  robot.respond /.+/, (msg) ->
+  robot.hear /.+/, (msg) ->
     if response = history.processMessage(msg.message)
       msg.send response
