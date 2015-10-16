@@ -65,7 +65,8 @@
     "hubot-brain-inspect": "0.0.1",
     "chrono-node": "~1.0.8",
     "lodash": "~3.10.1",
-    "moment": "~2.10.6"
+    "moment": "~2.10.6",
+    "hubot-substitute": "~0.2.0"
   },
   "engines": {
     "node": ">= 0.8.x < 0.11",

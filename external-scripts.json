@@ -44,5 +44,6 @@
   "hubot-movie",
   "hubot-bookmark",
   "hubot-currency",
-  "hubot-brain-inspect"
+  "hubot-brain-inspect",
+  "hubot-substitute"
 ]
