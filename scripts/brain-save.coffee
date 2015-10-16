@@ -10,9 +10,9 @@
 
 module.exports = (robot) ->
   robot.respond /brain save/i, (msg) ->
-#    robot.brain.setAutoSave true
-#    robot.brain.save()
-    robot.brain.emit 'save'
+    robot.brain.setAutoSave true
+    robot.brain.save()
+#    robot.brain.emit 'save'
     msg.send "Done, brain saved."
 
   #  robot.hear /badger/i, (res) ->
