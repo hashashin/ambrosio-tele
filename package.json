@@ -63,7 +63,8 @@
     "underscore": "1.4.4",
     "wolfram": "^0.3.2",
     "hubot-currency": "~1.0.1",
-    "hubot-mongodb-brain": "~0.1.0"
+    "hubot-mongodb-brain": "~0.1.0",
+    "hubot-brain-inspect": "0.0.1"
   },
   "engines": {
     "node": ">= 0.8.x < 0.11",
