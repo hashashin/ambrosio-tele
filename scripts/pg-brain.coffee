@@ -35,7 +35,7 @@ module.exports = (robot) ->
 
   client = new Postgres.Client(database_url)
   client.connect()
-  robot.logger.info "pg-brain connected to #{database_url}."
+  robot.logger.info "pg-brain connected."
 
   query = client.query("SELECT storage FROM hubot LIMIT 1")
   query.on 'row', (row) ->

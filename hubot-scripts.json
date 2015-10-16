@@ -21,5 +21,6 @@
    "ip.coffee",
    "days_since.coffee",
    "robot-memes.coffee",
-   "news.coffee"
+   "news.coffee",
+   "keep-alive.coffee"
 ]
