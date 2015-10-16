@@ -23,5 +23,6 @@
    "robot-memes.coffee",
    "news.coffee",
    "keep-alive.coffee",
-   "remind.coffee"
+   "remind.coffee",
+   "uptime.coffee"
 ]
