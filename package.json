@@ -56,14 +56,13 @@
     "hubot-youtube": "^1.0.1",
     "jsdom": "< 4.0.0",
     "nodepie": "^0.6.7",
-    "pg": "^4.4.2",
+    "pg": "~4.4.3",
     "pypi": "^0.1.2",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
     "twit": "1.1.6",
     "underscore": "1.4.4",
     "wolfram": "^0.3.2",
     "hubot-currency": "~1.0.1",
-    "hubot-mongodb-brain": "~0.1.0",
     "hubot-brain-inspect": "0.0.1"
   },
   "engines": {
