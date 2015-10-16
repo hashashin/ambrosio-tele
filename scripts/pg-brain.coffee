@@ -35,20 +35,20 @@ module.exports = (robot) ->
 
   client = new Postgres.Client(database_url)
   client.connect()
-  robot.logger.debug "pg-brain connected to #{database_url}."
+  robot.logger.info "pg-brain connected to #{database_url}."
 
   query = client.query("SELECT storage FROM hubot LIMIT 1")
   query.on 'row', (row) ->
     if row['storage']?
       robot.brain.mergeData JSON.parse(row['storage'].toString())
-      robot.logger.debug "pg-brain loaded."
+      robot.logger.info "pg-brain loaded."
 
   client.on "error", (err) ->
     robot.logger.error err
 
   robot.brain.on 'save', (data) ->
     query = client.query("UPDATE hubot SET storage = $1", [JSON.stringify(data)])
-    robot.logger.debug "pg-brain saved."
+    robot.logger.info "pg-brain saved."
 
   robot.brain.on 'close', ->
     client.end()
