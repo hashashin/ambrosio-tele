@@ -15,7 +15,7 @@
 # Author:
 #   hashashin
 api_url = "http://api.steampowered.com"
-api_key = process.env.DOTA_API_KEY
+api_key = process.env.STEAM_API_KEY
 
 module.exports = (robot) ->
   robot.respond /heroes/i, (msg) ->
