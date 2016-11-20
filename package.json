@@ -57,6 +57,7 @@
     "hubot-wikipedia": "0.0.2",
     "hubot-youtube": "^1.0.2",
     "jsdom": "^3.1.2",
+    "libxmljs": "^0.18.0",
     "lodash": "^3.10.1",
     "moment": "^2.14.1",
     "nodepie": "^0.6.7",
@@ -65,7 +66,7 @@
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
     "twit": "^1.1.20",
     "underscore": "^1.8.3",
-    "wolfram": "^0.3.2"
+    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "engines": {
     "node": "> 0.12",
