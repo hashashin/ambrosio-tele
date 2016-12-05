@@ -50,5 +50,6 @@
   "hubot-iss",
   "hubot-manpages",
   "hubot-nba",
-  "hubot-ector"
+  "hubot-ector",
+  "hubot-uuid"
 ]

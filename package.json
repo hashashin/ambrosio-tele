@@ -57,6 +57,7 @@
     "hubot-telegram": "0.0.8",
     "hubot-travisci-notifier": "https://github.com/1syo/hubot-travisci-notifier/tarball/master",
     "hubot-twitch": "^1.3.0",
+    "hubot-uuid": "^1.0.0",
     "hubot-where": "^0.1.0",
     "hubot-wikipedia": "0.0.2",
     "hubot-wolfram": "^1.1.0",
