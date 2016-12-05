@@ -48,5 +48,6 @@
   "hubot-wolfram",
   "hubot-xkcd",
   "hubot-iss",
-  "hubot-manpages"
+  "hubot-manpages",
+  ""hubot-nba""
 ]

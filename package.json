@@ -38,6 +38,7 @@
     "hubot-maps": "0.0.2",
     "hubot-memes": "^1.6.1",
     "hubot-movie": "^0.1.0",
+    "hubot-nba": "^1.4.0",
     "hubot-pagespeed": "0.0.5",
     "hubot-pugme": "^0.1.0",
     "hubot-qr-generator": "0.0.2",
