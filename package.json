@@ -18,7 +18,6 @@
     "hubot-calculator": "^0.4.0",
     "hubot-currency": "^1.0.1",
     "hubot-diagnostics": "0.0.1",
-    "hubot-ector": "^1.2.1",
     "hubot-explainshell": "^1.1.0",
     "hubot-gistme": "^0.1.1",
     "hubot-github-assign-issues": "0.0.2",
