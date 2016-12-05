@@ -47,5 +47,6 @@
   "hubot-kerbal-stuff",
   "hubot-wolfram",
   "hubot-xkcd",
-  "hubot-iss"
+  "hubot-iss",
+  "hubot-manpages"
 ]
