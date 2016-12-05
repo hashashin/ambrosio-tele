@@ -49,5 +49,6 @@
   "hubot-iss",
   "hubot-manpages",
   "hubot-nba",
-  "hubot-uuid"
+  "hubot-uuid",
+  "hubot-steamdeal"
 ]
