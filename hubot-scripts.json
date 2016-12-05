@@ -7,8 +7,6 @@
    "pypi.coffee",
    "room-info.coffee",
    "botsnack.coffee",
-   "wolfram.coffee",
-   "xkcd.coffee",
    "hackernews.coffee",
    "random-user.coffee",
    "countdown.coffee",

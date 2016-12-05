@@ -44,5 +44,8 @@
   "hubot-bookmark",
   "hubot-currency",
   "hubot-brain-inspect",
-  "hubot-kerbal-stuff"
+  "hubot-kerbal-stuff",
+  "hubot-wolfram",
+  "hubot-xkcd",
+
 ]
