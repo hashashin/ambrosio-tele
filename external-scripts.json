@@ -49,5 +49,6 @@
   "hubot-xkcd",
   "hubot-iss",
   "hubot-manpages",
-  ""hubot-nba""
+  "hubot-nba",
+  "hubot-ector"
 ]
