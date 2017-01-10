@@ -1,6 +1,6 @@
 {
   "name": "ambrosio_bot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for your Company",
@@ -10,11 +10,11 @@
     "hubot": "^2.19.0",
     "hubot-4chan": "0.0.1",
     "hubot-9gag": "^0.2.0",
-    "hubot-at": "0.0.4",
+    "hubot-at": "^0.0.4",
     "hubot-bitcoin": "^1.0.3",
     "hubot-bookmark": "0.0.4",
     "hubot-brain-inspect": "0.0.1",
-    "hubot-bropages": "0.0.2",
+    "hubot-bropages": "^0.0.2",
     "hubot-calculator": "^0.4.0",
     "hubot-currency": "^1.0.1",
     "hubot-diagnostics": "0.0.1",
@@ -75,7 +75,7 @@
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "engines": {
-    "node": "> 0.12",
-    "npm": "> 3.0.0"
+    "node": "6.9.4",
+    "npm": "3.10.10"
   }
 }
