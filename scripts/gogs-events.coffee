@@ -4,9 +4,9 @@ module.exports = (robot) ->
     room   = req.params.room || process.env["HUBOT_GITHUB_EVENT_NOTIFIER_ROOM"]
     data   = if req.body.payload? then JSON.parse req.body.payload else req.body
     cl = (data.commits).length
-    i = -1    
+    i = 0
 
-    while i<cl
+    while i<=(cl-1)
       commit = data.commits[i].id
       message = data.commits[i].message
       author = data.commits[i].author.name
