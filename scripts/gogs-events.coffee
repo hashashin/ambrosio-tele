@@ -5,6 +5,6 @@ module.exports = (robot) ->
     data   = if req.body.payload? then JSON.parse req.body.payload else req.body
     commit = data.before
 
-    robot.messageRoom room, "#{commit}"
+    robot.messageRoom room, #{commit}
 
     res.send 'OK'
