@@ -22,6 +22,7 @@
     "hubot-gistme": "^0.1.1",
     "hubot-github-assign-issues": "0.0.2",
     "hubot-github-compare": "^1.1.0",
+    "hubot-github-expand": "0.0.1",
     "hubot-github-merge": "^1.0.0",
     "hubot-github-repo-event-notifier": "https://github.com/hubot-scripts/hubot-github-repo-event-notifier/tarball/master",
     "hubot-google-images": "^0.2.6",

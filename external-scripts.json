@@ -50,5 +50,6 @@
   "hubot-manpages",
   "hubot-nba",
   "hubot-uuid",
-  "hubot-steamdeal"
+  "hubot-steamdeal",
+  "hubot-github-expand"
 ]
