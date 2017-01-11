@@ -16,4 +16,3 @@ module.exports = (robot) ->
       i++
 
     res.send 'OK'
-    robot.messageRoom room, "debug: #{cl}"
