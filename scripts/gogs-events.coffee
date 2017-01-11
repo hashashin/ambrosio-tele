@@ -8,9 +8,9 @@ module.exports = (robot) ->
     author = data.commits[0].author.name
     url = data.commits[0].url
 
-    robot.messageRoom room, "new commit: ${commit}\n
-                             message ${message}\n
-                             autor: ${autor}\n
-                             ${url}"
+    robot.messageRoom room, "new commit: #{commit}\n
+                             message #{message}\n
+                             autor: #{autor}\n
+                             #{url}"
 
     res.send 'OK'
