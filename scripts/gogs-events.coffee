@@ -3,11 +3,13 @@ module.exports = (robot) ->
   robot.router.post '/hubot/gogs/:room', (req, res) ->
     room   = req.params.room || process.env["HUBOT_GITHUB_EVENT_NOTIFIER_ROOM"]
     data   = if req.body.payload? then JSON.parse req.body.payload else req.body
-    commit = data.commits[0].id
-    message = data.commits[0].message
-    author = data.commits[0].author.name
-    url = data.commits[0].url
-
-    robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\n #{url}"
+    
+    for i in [0...(data.commits.lenght-1)]
+      commit = data.commits[i].id
+      message = data.commits[i].message
+      author = data.commits[i].author.name
+      url = data.commits[i].url
+      
+      robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\n #{url}"
 
     res.send 'OK'
