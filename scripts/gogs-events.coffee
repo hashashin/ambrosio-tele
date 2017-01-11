@@ -3,7 +3,7 @@ module.exports = (robot) ->
   robot.router.post '/hubot/gogs/:room', (req, res) ->
     room   = req.params.room || process.env["HUBOT_GITHUB_EVENT_NOTIFIER_ROOM"]
     data   = if req.body.payload? then JSON.parse req.body.payload else req.body
-    commit = data.commits
+    commit = data.commits[0].id
 
     robot.messageRoom room, commit
 
