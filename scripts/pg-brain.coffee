@@ -48,7 +48,7 @@ module.exports = (robot) ->
 
   robot.brain.on 'save', (data) ->
     query = client.query("UPDATE hubot SET storage = $1", [JSON.stringify(data)])
-    robot.logger.info "pg-brain saved."
+#    robot.logger.info "pg-brain saved."
 
   robot.brain.on 'close', ->
     client.end()
