@@ -47,6 +47,7 @@
   "hubot-statistics",
   "hubot-steam-webapi",
   "hubot-steamdeal",
+  "hubot-terminal-calendar",
   "hubot-traffic",
   "hubot-travisci-notifier",
   "hubot-twitch",
