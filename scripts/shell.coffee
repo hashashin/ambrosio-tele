@@ -100,9 +100,7 @@ module.exports = (robot) ->
   shell = new HubotShell()
 
   robot.respond /(sh|spawn shell) (.*)/i, (msg) ->
-    return unless authorized(msg)
     shell.spawnCommand msg.match[2], msg
 
   robot.respond /(bash|shell) (.*)/i, (msg) ->
-    return unless authorized(msg)
     shell.execCommand msg.match[2], msg
