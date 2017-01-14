@@ -17,6 +17,7 @@
     "hubot-brain-inspect": "0.0.1",
     "hubot-bropages": "^0.0.2",
     "hubot-calculator": "^0.4.0",
+    "hubot-cron-checker": "^0.1.0",
     "hubot-currency": "^1.0.1",
     "hubot-diagnostics": "0.0.1",
     "hubot-dragonball": "^1.0.1",
