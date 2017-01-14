@@ -23,6 +23,7 @@
     "hubot-dns-watch": "^1.0.3",
     "hubot-dragonball": "^1.0.1",
     "hubot-explainshell": "^1.1.0",
+    "hubot-geo": "^0.1.0",
     "hubot-gistme": "^0.1.1",
     "hubot-github-assign-issues": "0.0.2",
     "hubot-github-compare": "^1.1.0",
