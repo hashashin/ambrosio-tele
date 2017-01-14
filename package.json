@@ -38,6 +38,7 @@
     "hubot-info": "^0.1.0",
     "hubot-insultos": "^1.0.1",
     "hubot-iss": "^2.0.0",
+    "hubot-isup": "^1.0.2",
     "hubot-kerbal-stuff": "0.0.2",
     "hubot-manpages": "^1.0.0",
     "hubot-maps": "0.0.2",
