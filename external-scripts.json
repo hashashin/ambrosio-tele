@@ -10,6 +10,7 @@
   "hubot-cron-checker",
   "hubot-currency",
   "hubot-diagnostics",
+  "hubot-dns-watch",
   "hubot-dragonball",
   "hubot-explainshell",
   "hubot-gistme",
