@@ -49,6 +49,7 @@
   "hubot-steam-webapi",
   "hubot-steamdeal",
   "hubot-terminal-calendar",
+  "hubot-timezone",
   "hubot-traffic",
   "hubot-travisci-notifier",
   "hubot-twitch",
