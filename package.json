@@ -46,6 +46,7 @@
     "hubot-memes": "^1.6.1",
     "hubot-movie": "^0.1.0",
     "hubot-nba": "^1.4.0",
+    "hubot-npm-tips": "^1.0.2",
     "hubot-pagespeed": "0.0.5",
     "hubot-placeholdit": "^1.0.2",
     "hubot-pugme": "^0.1.0",
