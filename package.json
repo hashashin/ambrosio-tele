@@ -65,7 +65,7 @@
     "hubot-spy": "^1.0.0",
     "hubot-statistics": "^1.2.2",
     "hubot-steam-webapi": "^2.2.0",
-    "hubot-steamdailydeal": "git+https://github.com/Alucardfh/hubot-steamdailydeal.git",
+    "hubot-steamdailydeal": "git+https://github.com/hashashin/hubot-steamdailydeal.git",
     "hubot-steamdeal": "^1.0.6",
     "hubot-telegram": "0.0.8",
     "hubot-terminal-calendar": "git+https://github.com/hashashin/hubot-terminal-calendar.git",
