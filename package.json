@@ -50,6 +50,7 @@
     "hubot-npm-tips": "^1.0.2",
     "hubot-pagespeed": "0.0.5",
     "hubot-placeholdit": "^1.0.2",
+    "hubot-pr-status": "^0.1.2",
     "hubot-pugme": "^0.1.0",
     "hubot-qr-generator": "0.0.2",
     "hubot-rae": "^1.0.4",
