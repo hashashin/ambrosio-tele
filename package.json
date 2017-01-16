@@ -71,6 +71,7 @@
     "hubot-twitch": "git+https://github.com/hashashin/hubot-twitch.git",
     "hubot-uuid": "^1.0.0",
     "hubot-where": "^0.1.0",
+    "hubot-whois": "0.0.6",
     "hubot-wikipedia": "0.0.2",
     "hubot-wolfram": "^1.1.0",
     "hubot-xkcd": "0.0.3",
