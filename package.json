@@ -66,7 +66,7 @@
     "hubot-spy": "^1.0.0",
     "hubot-statistics": "^1.2.2",
     "hubot-steam-webapi": "^2.2.0",
-    "hubot-steamdeal": "^1.0.6",
+    "hubot-suggest": "0.0.2",
     "hubot-telegram": "0.0.8",
     "hubot-terminal-calendar": "git+https://github.com/hashashin/hubot-terminal-calendar.git",
     "hubot-timezone": "^1.0.1",
