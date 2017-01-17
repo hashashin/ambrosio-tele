@@ -63,6 +63,7 @@
   "hubot-traffic",
   "hubot-travisci-notifier",
   "hubot-twitch",
+  "hubot-twitter-subscriptions",
   "hubot-uuid",
   "hubot-where",
   "hubot-whois",

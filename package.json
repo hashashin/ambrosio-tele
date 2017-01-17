@@ -75,6 +75,7 @@
     "hubot-traffic": "^1.1.2",
     "hubot-travisci-notifier": "https://github.com/1syo/hubot-travisci-notifier/tarball/master",
     "hubot-twitch": "git+https://github.com/hashashin/hubot-twitch.git",
+    "hubot-twitter-subscriptions": "0.0.11",
     "hubot-uuid": "^1.0.0",
     "hubot-where": "^0.1.0",
     "hubot-whois": "0.0.6",
