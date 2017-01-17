@@ -16,8 +16,7 @@ module.exports = (robot) ->
       url = data.commits[i].url
       TinyURL.shorten url, (res) ->
         console.log res
-        if res != null
-          url = res
+        url = res
         return
       repo = data.repository.name
           
