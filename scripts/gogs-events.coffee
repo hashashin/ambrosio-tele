@@ -1,3 +1,5 @@
+gitio = require('node-gitio')
+
 module.exports = (robot) ->
   # the expected value of :room is going to vary by adapter, it might be a numeric id, name, token, or some other value
   robot.router.post '/hubot/gogs/:room', (req, res) ->
@@ -12,6 +14,11 @@ module.exports = (robot) ->
       message = data.commits[i].message
       author = data.commits[i].author.name
       url = data.commits[i].url
+      gitio.shrink(payload, (err, result) => {
+        if (!err) {
+          url = result;
+        }
+      });
       repo = data.repository.name
           
       robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\nrepo: #{repo}\n#{url}"
