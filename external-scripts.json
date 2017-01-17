@@ -27,6 +27,7 @@
   "hubot-heroku-deploy-notifier",
   "hubot-http-status",
   "hubot-in-space",
+  "hubot-incoming-webhook",
   "hubot-info",
   "hubot-insultos",
   "hubot-iss",
