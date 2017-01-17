@@ -38,6 +38,7 @@
     "hubot-heroku-deploy-notifier": "^0.1.4",
     "hubot-http-status": "^0.2.2",
     "hubot-in-space": "^2.0.0",
+    "hubot-incoming-webhook": "^1.0.1",
     "hubot-info": "^0.1.0",
     "hubot-insultos": "^1.0.1",
     "hubot-iss": "^2.0.0",
