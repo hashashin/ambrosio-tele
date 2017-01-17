@@ -50,6 +50,7 @@
   "hubot-reddit",
   "hubot-rss-reader",
   "hubot-rules",
+  "hubot-schedule",
   "hubot-seen",
   "hubot-shipit",
   "hubot-speed-test",
