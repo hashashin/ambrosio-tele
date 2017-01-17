@@ -1,4 +1,4 @@
-gitio = require('node-gitio')
+shrink = require('shrink')
 
 module.exports = (robot) ->
   # the expected value of :room is going to vary by adapter, it might be a numeric id, name, token, or some other value
@@ -13,10 +13,7 @@ module.exports = (robot) ->
       commit = commit.toString().slice(0,9)
       message = data.commits[i].message
       author = data.commits[i].author.name
-      url = data.commits[i].url
-      gitio.shrink url, (err, result) ->
-        if !err
-          url = result
+      url = shrink.shorten(data.commits[i].url)
       repo = data.repository.name
           
       robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\nrepo: #{repo}\n#{url}"
