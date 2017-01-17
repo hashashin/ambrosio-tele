@@ -13,7 +13,8 @@ module.exports = (robot) ->
       commit = commit.toString().slice(0,9)
       message = data.commits[i].message
       author = data.commits[i].author.name
-      url = shrink.shorten(data.commits[i].url).shortUrl
+      url = shrink.shorten(data.commits[i].url)
+      url = url.shortUrl
       repo = data.repository.name
           
       robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\nrepo: #{repo}\n#{url}"
