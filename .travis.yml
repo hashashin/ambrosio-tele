@@ -11,9 +11,9 @@ matrix:
 notifications:
   email: false
   webhooks: https://ambrosio-tele.herokuapp.com/ambrosio_bot/travisci/133188453
-  on_success: change # default: always
+  on_success: always # default: always
   on_failure: always # default: always
-  on_start: change   # default: never
+  on_start: always   # default: never
 env:
   - CXX=g++-4.8
 addons:
