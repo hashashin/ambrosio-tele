@@ -8,6 +8,7 @@ module.exports = (robot) ->
 
     while i<=(cl-1)
       commit = data.commits[i].id
+      commit = commit.toString().slice(0,9)
       message = data.commits[i].message
       author = data.commits[i].author.name
       url = data.commits[i].url
