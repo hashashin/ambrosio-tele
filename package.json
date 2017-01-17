@@ -44,6 +44,7 @@
     "hubot-istheinternetonfire": "^0.1.1",
     "hubot-isup": "^1.0.2",
     "hubot-kerbal-stuff": "git+https://github.com/hashashin/hubot-kerbal-stuff.git",
+    "hubot-logo": "0.0.8",
     "hubot-maps": "0.0.2",
     "hubot-memes": "^1.6.2",
     "hubot-movie": "^0.1.0",
