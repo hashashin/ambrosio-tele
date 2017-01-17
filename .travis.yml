@@ -3,7 +3,6 @@ node_js:
    - "6.9.4"
    - "7.4.0"
 cache:
-  yarn
   directories:
     - node_modules
 matrix:
@@ -12,7 +11,9 @@ matrix:
   fast_finish: true
 notifications:
   webhooks: https://ambrosio-tele.herokuapp.com/ambrosio_bot/travisci/133188453
-  on_start: true
+  on_success: always # default: always
+  on_failure: always # default: always
+  on_start: always   # default: never
 env:
   - CXX=g++-4.8
 addons:
