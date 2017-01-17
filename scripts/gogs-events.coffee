@@ -1,4 +1,5 @@
-shrink = require('shrink')
+short = require('easy-short-url')
+short.setProvider 'is.gd'
 
 module.exports = (robot) ->
   # the expected value of :room is going to vary by adapter, it might be a numeric id, name, token, or some other value
@@ -13,8 +14,10 @@ module.exports = (robot) ->
       commit = commit.toString().slice(0,9)
       message = data.commits[i].message
       author = data.commits[i].author.name
-      url = shrink.shorten(data.commits[i].url)
-      url = url.shortUrl
+      url = data.commits[i].url
+      short.short url, (surl, err) ->
+        if !err
+          url = surl
       repo = data.repository.name
           
       robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\nrepo: #{repo}\n#{url}"

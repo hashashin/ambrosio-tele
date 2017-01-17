@@ -7,6 +7,7 @@
   "dependencies": {
     "chrono-node": "^1.2.5",
     "coffee-script": "^1.12.2",
+    "easy-short-url": "^1.0.0",
     "githubot": "^1.0.1",
     "hubot": "^2.19.0",
     "hubot-4chan": "0.0.1",
@@ -88,7 +89,6 @@
     "pg": "^4.5.6",
     "pypi": "^0.1.2",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
-    "shrink": "0.0.3",
     "twit": "^1.1.20",
     "underscore": "^1.8.3",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
