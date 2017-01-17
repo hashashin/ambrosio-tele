@@ -72,6 +72,7 @@
     "hubot-telegram": "0.0.8",
     "hubot-terminal-calendar": "git+https://github.com/hashashin/hubot-terminal-calendar.git",
     "hubot-timezone": "^1.0.1",
+    "hubot-todos": "0.0.5",
     "hubot-traffic": "^1.1.2",
     "hubot-travisci-notifier": "https://github.com/1syo/hubot-travisci-notifier/tarball/master",
     "hubot-twitch": "git+https://github.com/hashashin/hubot-twitch.git",
