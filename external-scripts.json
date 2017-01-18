@@ -59,6 +59,7 @@
   "hubot-statistics",
   "hubot-steam-webapi",
   "hubot-suggest",
+  "hubot-task-manager",
   "hubot-terminal-calendar",
   "hubot-timezone",
   "hubot-traffic",
