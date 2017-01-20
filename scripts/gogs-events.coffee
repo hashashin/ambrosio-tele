@@ -15,12 +15,15 @@ module.exports = (robot) ->
       author = data.commits[i].author.name
       url = data.commits[i].url
       TinyURL.shorten url, (res) ->
-        console.log res
         url = res
         return
       repo = data.repository.name
-          
-      robot.messageRoom room, "new commit: #{commit}\nmessage: #{message}\nauthor: #{author}\nrepo: #{repo}\n#{url}"
+      msg = "new commit: #{commit}\n"
+      msg += "repo: #{repo}\n"
+      msg += "author: #{author}\n"
+      msg += "message: #{message}\n"
+      msg += "#{url}"
+      robot.messageRoom room, msg
       i++
 
     res.send 'OK'
