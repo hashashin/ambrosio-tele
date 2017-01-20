@@ -4,6 +4,9 @@
   "private": true,
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register tests"
+  },
   "dependencies": {
     "chrono-node": "^1.2.5",
     "coffee-script": "^1.12.2",
@@ -96,6 +99,15 @@
     "twit": "^1.1.20",
     "underscore": "^1.8.3",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coffee-script": "^1.9.3",
+    "coffeelint": "^1.9.4",
+    "hubot-test-helper": "0.0.6",
+    "mocha": "^2.2.5",
+    "nock": "^2.3.0",
+    "sinon": "^1.14.1"
   },
   "engines": {
     "node": "6.9.4",
