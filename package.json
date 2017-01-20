@@ -16,6 +16,7 @@
     "hubot-9gag": "^0.2.0",
     "hubot-archive-today": "^1.1.8",
     "hubot-at": "^0.0.4",
+    "hubot-available": "^1.1.0",
     "hubot-bitcoin": "^1.0.3",
     "hubot-bookmark": "0.0.4",
     "hubot-brain-inspect": "0.0.1",
