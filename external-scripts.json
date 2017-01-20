@@ -11,6 +11,7 @@
   "hubot-calculator",
   "hubot-cron-checker",
   "hubot-currency",
+  "hubot-debpkg",
   "hubot-diagnostics",
   "hubot-dns-watch",
   "hubot-dragonball",
