@@ -22,11 +22,11 @@ module.exports = (robot) ->
           msg.reply "Error occured generating a random user: #{err}"
         else
           try
-            data = JSON.parse(body).results[0].user
+            data = JSON.parse(body).results[0]
             msg.send "#{data.name.first.capitalize()} #{data.name.last.capitalize()}\n" +
               "Gender: #{data.gender}\n" +
               "Email: #{data.email}\n" +
-              "Picture: #{data.picture}"
+              "Picture: #{data.picture.thumbnail}"
 
           catch err
             msg.reply "Error occured parsing response body: #{err}"
