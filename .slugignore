@@ -1,3 +1,4 @@
 /tests
 README.md
 /disabled-scripts
+.travis.yml
