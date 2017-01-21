@@ -30,6 +30,7 @@
   "hubot-help",
   "hubot-heroku-deploy-notifier",
   "hubot-http-status",
+  "hubot-httpdog",
   "hubot-in-space",
   "hubot-incoming-webhook",
   "hubot-info",
