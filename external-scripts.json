@@ -24,6 +24,7 @@
   "hubot-github-merge",
   "hubot-github-repo-event-notifier",
   "hubot-google-images",
+  "hubot-google-news",
   "hubot-hearthstone",
   "hubot-help",
   "hubot-heroku-deploy-notifier",

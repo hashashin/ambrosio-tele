@@ -17,7 +17,6 @@
    "locpix.coffee",
    "days_since.coffee",
    "robot-memes.coffee",
-   "news.coffee",
    "keep-alive.coffee",
    "remind.coffee",
    "uptime.coffee"
