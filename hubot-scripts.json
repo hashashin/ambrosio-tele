@@ -4,7 +4,6 @@
    "twitter_stream.coffee",
    "github-search.coffee",
    "github-status.coffee",
-   "pypi.coffee",
    "room-info.coffee",
    "botsnack.coffee",
    "hackernews.coffee",
