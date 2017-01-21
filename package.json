@@ -68,6 +68,7 @@
     "hubot-qr-generator": "^1.0.0",
     "hubot-rae": "^1.0.4",
     "hubot-reaction": "https://github.com/hashashin/hubot-reaction/tarball/master",
+    "hubot-reboot": "^1.2.0",
     "hubot-reddit": "git+https://github.com/3ch01c/hubot-reddit.git",
     "hubot-rss-reader": "^0.8.3",
     "hubot-rules": "^0.1.1",
