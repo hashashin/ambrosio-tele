@@ -1,3 +1,14 @@
+# Description:
+#   gogs simple webhook
+#
+# Dependencies:
+#
+# Configuration:
+#
+# Commands:
+#
+# Author:
+#   hashashin
 TinyURL = require('tinyurl')
 
 module.exports = (robot) ->
