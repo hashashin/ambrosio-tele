@@ -58,6 +58,7 @@
   "hubot-speed-test",
   "hubot-spotify-me",
   "hubot-spy",
+  "hubot-ssl-certificate-expiration-check",
   "hubot-statistics",
   "hubot-steam-webapi",
   "hubot-suggest",
