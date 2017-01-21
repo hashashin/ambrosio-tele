@@ -78,7 +78,7 @@
     "hubot-steam-webapi": "^2.2.0",
     "hubot-suggest": "0.0.2",
     "hubot-task-manager": "^0.9.1",
-    "hubot-telegram": "0.0.8",
+    "hubot-telegram": "^0.1.2",
     "hubot-terminal-calendar": "git+https://github.com/hashashin/hubot-terminal-calendar.git",
     "hubot-timezone": "^1.0.1",
     "hubot-traffic": "^1.1.2",
