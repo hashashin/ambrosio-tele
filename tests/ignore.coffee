@@ -8,8 +8,9 @@ helper = new Helper('./../scripts/00_ignore.coffee')
 describe 'ignore', ->
   room = null
 
-  beforeEach ->
+  beforeEach (done) ->
     room = helper.createRoom()
+    setTimeout done, 50
 
   afterEach ->
     room.destroy()
