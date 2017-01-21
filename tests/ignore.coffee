@@ -26,6 +26,7 @@ describe 'ignore', ->
         ['bob',   'hubot PING']
         ['hubot', 'ignored message, from bob']
       ]
+    done()
 
   context 'user says echo to hubot', ->
     beforeEach ->
@@ -39,6 +40,7 @@ describe 'ignore', ->
         ['peter', 'hubot echo another message']
         ['hubot', 'ignored message, from peter']
       ]
+    done()
 
   context 'user says time to hubot', ->
     beforeEach ->
@@ -54,6 +56,7 @@ describe 'ignore', ->
         ['bill', 'hubot time']
         ['hubot', 'ignored message, from bill']
       ]
+    done()
 
   context 'user says die to hubot', ->
     beforeEach ->
@@ -68,6 +71,8 @@ describe 'ignore', ->
         ['mary', 'hubot die']
         ['hubot', 'ignored message, from mary']
       ]
+    done()
 
     it 'should not call process exit', ->
       expect(process.exit.called).to.be.false
+    done()
