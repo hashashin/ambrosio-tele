@@ -97,7 +97,7 @@
     "moment": "^2.17.1",
     "nodepie": "^0.6.7",
     "pg": "^4.5.6",
-    "pypi": "^0.1.2",
+    "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
     "tinyurl": "^1.1.2",
     "twit": "^1.1.20",
