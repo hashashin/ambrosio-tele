@@ -91,27 +91,21 @@
     "hubot-wolfram": "^1.1.0",
     "hubot-xkcd": "0.0.3",
     "hubot-youtube": "^1.0.2",
-    "jsdom": "^3.1.2",
+    "jsdom": "^9.9.1",
     "libxmljs": "^0.18.4",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.4",
     "moment": "^2.17.1",
     "nodepie": "^0.6.7",
     "pg": "^6.1.2",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
     "tinyurl": "^1.1.2",
-    "twit": "^1.1.20",
+    "twit": "^2.2.5",
     "underscore": "^1.8.3",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "devDependencies": {
-    "chai": "^2.3.0",
-    "coffee-script": "^1.9.3",
-    "coffeelint": "^1.9.4",
-    "hubot-test-helper": "0.0.6",
-    "mocha": "^2.2.5",
-    "nock": "^2.3.0",
-    "sinon": "^1.14.1"
+    "hubot-test-helper": "1.5.1"
   },
   "engines": {
     "node": "6.9.4",
