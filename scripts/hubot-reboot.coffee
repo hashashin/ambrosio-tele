@@ -29,7 +29,7 @@ module.exports = (robot) ->
         robot.respond /(.*)/i, (msg) ->
             return unless msg.match[1]
 
-            if (!!~ msg.match[1].indexOf reboot_command) && (masteru is msg.message.user)
+            if (!!~ msg.match[1].indexOf reboot_command)
                 msg.send reboot_message
                 # logging the fact that hubot was asked to reboot
                 console.log 'Rebooting as requested by ' + msg.message.user.name
