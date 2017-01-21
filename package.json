@@ -38,6 +38,7 @@
     "hubot-github-repo-event-notifier": "https://github.com/hubot-scripts/hubot-github-repo-event-notifier/tarball/master",
     "hubot-google-images": "^0.2.6",
     "hubot-google-news": "git+https://github.com/hashashin/hubot-google-news.git",
+    "hubot-hashme": "^0.5.1",
     "hubot-hearthstone": "https://github.com/hashashin/hubot-hearthstone/tarball/master",
     "hubot-help": "^0.2.0",
     "hubot-heroku-deploy-notifier": "^0.1.4",
