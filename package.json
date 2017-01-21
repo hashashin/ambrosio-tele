@@ -36,7 +36,7 @@
     "hubot-github-compare": "^1.1.0",
     "hubot-github-expand": "0.0.1",
     "hubot-github-merge": "^1.0.0",
-    "hubot-github-repo-event-notifier": "https://github.com/chamerling/hubot-github-repo-event-notifier/tarball/wildcard",
+    "hubot-github-repo-event-notifier": "https://github.com/hubot-scripts/hubot-github-repo-event-notifier/tarball/master",
     "hubot-google-images": "^0.2.6",
     "hubot-google-news": "git+https://github.com/hashashin/hubot-google-news.git",
     "hubot-hashme": "^0.5.1",
