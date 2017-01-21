@@ -1,9 +1,9 @@
 {
   "name": "ambrosio_bot",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "author": "hashashin <gentoo.power@gmail.com>",
-  "description": "A simple helpful robot for your Company",
+  "description": "A simple helpful robot for myself",
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register tests"
   },
