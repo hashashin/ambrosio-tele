@@ -22,7 +22,7 @@ module.exports = (robot) ->
       hostname = data.events[i].hostname
       source = data.events[i].source_name
       message = data.events[i].message
-      msg = "Papertrail alert from #{source} at #{hostname}\n"
+      msg = "Papertrail *alert* from #{source} at #{hostname}\n"
       msg += "*message*:\n"
       msg += message
       robot.messageRoom room, msg

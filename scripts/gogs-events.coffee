@@ -29,11 +29,10 @@ module.exports = (robot) ->
         url = res
         return
       repo = data.repository.name
-      msg = "new commit: #{commit}\n"
-      msg += "repo: #{repo}\n"
-      msg += "author: #{author}\n"
-      msg += "message: #{message}\n"
-      msg += "#{url}"
+      msg = "*new commit*: [#{commit}](#{url})\n"
+      msg += "*repo*: #{repo}\n"
+      msg += "*author*: #{author}\n"
+      msg += "*message*: #{message}"
       robot.messageRoom room, msg
       i++
 
