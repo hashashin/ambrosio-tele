@@ -28,12 +28,14 @@ module.exports = (robot) ->
       TinyURL.shorten url, (res) ->
         url = res
         return
-      repo = data.repository.name
+      repo = data.repository.name.replace(/_/g, ' ')
+
       msg = "*new commit*\n"
       msg += "repo: #{repo}\n"
       msg += "author: #{author}\n"
       msg += "message: #{message}\n"
       msg += "[#{commit}](#{url})"
+
       robot.messageRoom room, msg
       i++
 
