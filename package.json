@@ -65,7 +65,6 @@
     "hubot-pwned": "^0.1.0",
     "hubot-pwqgen": "0.0.5",
     "hubot-qr-generator": "^1.0.0",
-    "hubot-rae": "^1.0.4",
     "hubot-reaction": "https://github.com/hashashin/hubot-reaction/tarball/master",
     "hubot-reddit": "git+https://github.com/3ch01c/hubot-reddit.git",
     "hubot-rss-reader": "^0.8.3",
