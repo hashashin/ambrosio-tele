@@ -23,10 +23,11 @@ module.exports = (robot) ->
         else
           try
             data = JSON.parse(body).results[0]
-            msg.send "#{data.name.first.capitalize()} #{data.name.last.capitalize()}\n" +
-              "Gender: #{data.gender}\n" +
-              "Email: #{data.email}\n" +
-              "Picture: #{data.picture.thumbnail}"
-
+            resp = "#{data.name.first.capitalize()} #{data.name.last.capitalize()}\n"
+            resp += "Gender: #{data.gender}\n"
+            resp += "Email: #{data.email}\n"
+            resp += "username: #{data.login.username} password: #{data.login.password}\n"
+            resp += "Picture: #{data.picture.medium}"
+            msg.send resp
           catch err
             msg.reply "Error occured parsing response body: #{err}"
