@@ -17,7 +17,8 @@ module.exports = (robot) ->
         chat_id: msg.envelope.room
         sticker: msg.match[1]
       }, (error, response) ->
-        console.log error
-        console.log response
+        if error != null
+          robot.logger.error error
+        robot.logger.debug response
   else
-    console.log "You're not using telegram adapter, bye."
+    robot.logger.info "You're not using telegram adapter, bye."
