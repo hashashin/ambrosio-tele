@@ -16,8 +16,6 @@ module.exports = (robot) ->
       robot.emit 'telegram:invoke', 'sendSticker', {
         chat_id: msg.envelope.room
         sticker: msg.match[1]
-      }, (error, response) ->
-        console.log error
-        console.log response
+      }
   else
     console.log "You're not using telegram adapter, bye."
