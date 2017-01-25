@@ -24,19 +24,17 @@ module.exports = (robot) ->
       commit = commit.toString().slice(0,9)
       message = data.commits[i].message
       author = data.commits[i].author.name
-      url = data.commits[i].url
-      TinyURL.shorten url, (res) ->
+      TinyURL.shorten data.commits[i].url, (res) ->
         url = res
-        return
-      repo = data.repository.name.replace(/_/g, ' ')
+      	repo = data.repository.name.replace(/_/g, ' ')
 
-      msg = "*new commit*\n"
-      msg += "repo: #{repo}\n"
-      msg += "author: #{author}\n"
-      msg += "message: #{message}\n"
-      msg += "[#{commit}](#{url})"
+        msg = "*new commit*\n"
+        msg += "repo: #{repo}\n"
+        msg += "author: #{author}\n"
+        msg += "message: #{message}\n"
+        msg += "[#{commit}](#{url})"
 
-      robot.messageRoom room, msg
-      i++
+        robot.messageRoom room, msg
+        i++
 
     res.send 'OK'
