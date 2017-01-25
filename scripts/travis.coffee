@@ -9,7 +9,7 @@
 #
 # Commands:
 #   hubot travis me <user>/<repo> - Returns the build status of https://github.com/<user>/<repo>
-# 
+#
 # Author:
 #   sferik
 #   nesQuick
