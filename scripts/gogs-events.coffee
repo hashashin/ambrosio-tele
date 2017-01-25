@@ -26,7 +26,7 @@ module.exports = (robot) ->
       author = data.commits[i].author.name
       TinyURL.shorten data.commits[i].url, (res) ->
         url = res
-      	repo = data.repository.name.replace(/_/g, ' ')
+        repo = data.repository.name.replace(/_/g, ' ')
 
         msg = "*new commit*\n"
         msg += "repo: #{repo}\n"
