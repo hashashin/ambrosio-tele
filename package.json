@@ -70,7 +70,7 @@
     "hubot-rain-alert": "https://github.com/hashashin/hubot-rain-alert/tarball/telegram",
     "hubot-reaction": "https://github.com/hashashin/hubot-reaction/tarball/master",
     "hubot-reddit": "git+https://github.com/3ch01c/hubot-reddit.git",
-    "hubot-rss-reader": "^0.8.3",
+    "hubot-rss-reader": "github:hashashin/hubot-rss-reader",
     "hubot-rules": "^0.1.1",
     "hubot-schedule": "^0.5.1",
     "hubot-scripts": "^2.17.2",
