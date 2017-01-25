@@ -35,6 +35,6 @@ module.exports = (robot) ->
         msg += "[#{commit}](#{url})"
 
         robot.messageRoom room, msg
-        i++
+      i++
 
     res.send 'OK'
