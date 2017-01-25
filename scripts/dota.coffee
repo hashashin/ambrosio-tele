@@ -48,4 +48,4 @@ module.exports = (robot) ->
         json = JSON.parse(body)
         msg.send "Current Online Dota 2 players: " + json.response.player_count + " Ruskys: 99%"
       catch err
-          msg.send err
+        msg.send err
