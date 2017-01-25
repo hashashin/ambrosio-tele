@@ -61,6 +61,7 @@
     "hubot-npm-tips": "^1.0.2",
     "hubot-pagespeed": "0.0.5",
     "hubot-placeholdit": "^1.0.2",
+    "hubot-postgres-brain": "github:changhaitravis/hubot-postgres-brain",
     "hubot-pr-status": "^0.1.2",
     "hubot-pugme": "^0.1.0",
     "hubot-pwned": "^0.1.0",

@@ -48,6 +48,7 @@
   "hubot-npm-tips",
   "hubot-pagespeed",
   "hubot-placeholdit",
+  "hubot-postgres-brain",
   "hubot-pr-status",
   "hubot-pugme",
   "hubot-pwned",
