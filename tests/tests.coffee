@@ -5,7 +5,7 @@ sinon = require('sinon')
 # helper loads a specific script if it's a file
 helper = new Helper('./../scripts/')
 
-describe 'ignore', ->
+describe 'simple tests', ->
   room = null
 
   beforeEach ->
