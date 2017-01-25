@@ -23,7 +23,7 @@ module.exports = (robot) ->
   robot.respond /(.*)/i, (msg) ->
     return unless msg.match[1] is command
     msg.send reboot_message
-    robot.logger.info 'Rebooting as requested by ' + msg.user.id
+    robot.logger.info 'Rebooting as requested by ' + msg.envelope.user.id
     setTimeout ->
       process.exit 0
     , 3000
