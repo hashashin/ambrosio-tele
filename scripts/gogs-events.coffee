@@ -31,7 +31,7 @@ module.exports = (robot) ->
         msg = "*new commit* #{commit}\n"
         msg += "repo: #{repo}\n"
         msg += "author: #{author}\n"
-        msg += "message: ```#{message}```\n"
+        msg += "message: ```\u200B#{message}```\n"
         msg += "[#{url}](#{url})"
 
         robot.messageRoom room, msg
