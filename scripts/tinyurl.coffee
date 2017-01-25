@@ -13,7 +13,7 @@ TinyURL = require('tinyurl')
 
 module.exports = (robot) ->
   robot.respond /tinyurl\s+(https?:\/\/[^\s]+)$/i, (msg) ->
-  TinyURL.shorten msg.match[1], (res) ->
-    msg.send res
+    TinyURL.shorten msg.match[1], (res) ->
+      msg.send res
   
 
