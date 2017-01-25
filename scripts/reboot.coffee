@@ -16,8 +16,8 @@
 # Notes:
 #   copied/inspired from https://github.com/ClaudeBot/ClaudeBot/blob/master/scripts/claudebot.coffee
 
-command = process.env.HUBOT_REBOOT_COMMAND ? 'reboot';
-reboot_message = process.env.HUBOT_REBOOT_MESSAGE ? 'Bye, cruel world!';
+command = process.env.HUBOT_REBOOT_COMMAND ? 'reboot'
+reboot_message = process.env.HUBOT_REBOOT_MESSAGE ? 'Bye, cruel world!'
 
 module.exports = (robot) ->
   robot.respond /(.*)/i, (msg) ->
