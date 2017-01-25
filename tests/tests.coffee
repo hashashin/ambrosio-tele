@@ -3,7 +3,7 @@ expect = require('chai').expect
 sinon = require('sinon')
 
 # helper loads a specific script if it's a file
-helper = new Helper('./../scripts/00_ignore.coffee')
+helper = new Helper('./../scripts/')
 
 describe 'ignore', ->
   room = null
@@ -21,6 +21,7 @@ describe 'ignore', ->
 
     it 'should not reply pong to user', ->
       expect(room.messages).to.eql [
+        ['hubot', 'Hello, cruel world!']
         ['alice', 'hubot PING']
         ['hubot', 'ignored message, from alice']
         ['bob',   'hubot PING']
@@ -34,6 +35,7 @@ describe 'ignore', ->
 
     it 'should not echo message back', ->
       expect(room.messages).to.eql [
+        ['hubot', 'Hello, cruel world!']
         ['jim', 'hubot echo this will be the message']
         ['hubot', 'ignored message, from jim']
         ['peter', 'hubot echo another message']
@@ -51,6 +53,7 @@ describe 'ignore', ->
 
     it 'should not respond with current time', ->
       expect(room.messages).to.eql [
+        ['hubot', 'Hello, cruel world!']
         ['bill', 'hubot time']
         ['hubot', 'ignored message, from bill']
       ]
@@ -65,6 +68,7 @@ describe 'ignore', ->
 
     it 'should not tell the room it is leaving', ->
       expect(room.messages).to.eql [
+        ['hubot', 'Hello, cruel world!']
         ['mary', 'hubot die']
         ['hubot', 'ignored message, from mary']
       ]
