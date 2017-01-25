@@ -20,5 +20,10 @@ module.exports = (robot) ->
     msg.send url+"/?url="+msg.match[1]+"&format=A4&orientation=portrait&margin=1cm"
 module.exports = (robot) ->
   robot.respond /pdf me\s+(https?:\/\/[^\s]+)$/i, (msg) ->
-    msg.send url+"/?url="+msg.match[1]+"&format=A4&orientation=portrait&margin=1cm"
-    
+    robot.emit 'telegram:invoke', 'sendDocument', {
+      chat_id: msg.envelope.room
+      document: url+"/?url="+msg.match[1]
+    }, (error, response) ->
+      if error != null
+        robot.logger.error error
+      robot.logger.debug response
