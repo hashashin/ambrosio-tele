@@ -28,11 +28,11 @@ module.exports = (robot) ->
         url = res
         repo = data.repository.name.replace(/_/g, ' ')
 
-        msg = "*new commit*\n"
+        msg = "*new commit* #{commit}\n"
         msg += "repo: #{repo}\n"
         msg += "author: #{author}\n"
         msg += "message: #{message}\n"
-        msg += "[#{commit}](#{url})"
+        msg += "[#{url}](#{url})"
 
         robot.messageRoom room, msg
       i++
