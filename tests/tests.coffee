@@ -14,6 +14,17 @@ describe 'simple tests', ->
   afterEach ->
     room.destroy()
 
+  context 'permited user says ping to hubot'
+    beforeEach ->
+      room.user.say 'juan', 'hubot PING'
+
+    it 'should reply pong to user', ->
+      expect(room.messages).to.eql [
+        ['hubot', 'Hello, cruel world!']
+        ['juan', 'hubot PING']
+        ['hubot', 'PONG']
+      ]
+
   context 'user says ping to hubot', ->
     beforeEach ->
       room.user.say 'alice', 'hubot PING'
