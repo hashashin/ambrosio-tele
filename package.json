@@ -96,7 +96,7 @@
     "hubot-whois": "0.0.6",
     "hubot-wikipedia": "git+https://github.com/ClaudeBot/hubot-wikipedia.git",
     "hubot-wolfram": "^1.1.0",
-    "hubot-xkcd": "github:hashashin/hubot-xkcd",
+    "hubot-xkcd": "https://github.com/hashashin/hubot-xkcd/tarball/master",
     "hubot-youtube": "^1.0.2",
     "jsdom": "^9.9.1",
     "libxmljs": "^0.18.4",
