@@ -26,7 +26,7 @@
     "hubot-currency": "^1.0.1",
     "hubot-debpkg": "^1.0.3",
     "hubot-diagnostics": "0.0.1",
-    "hubot-dns-watch": "github:hashashin/hubot-dns-watch",
+    "hubot-dns-watch": "https://github.com/hashashin/hubot-dns-watch/tarball/master",
     "hubot-dragonball": "^1.0.1",
     "hubot-explainshell": "^1.1.0",
     "hubot-geo": "^0.1.0",
