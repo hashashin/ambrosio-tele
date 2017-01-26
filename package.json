@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "chrono-node": "^1.2.5",
-    "coffee-script": "^1.12.2",
+    "coffee-script": "^1.12.3",
     "githubot": "^1.0.1",
     "hubot": "^2.19.0",
     "hubot-4chan": "0.0.1",
