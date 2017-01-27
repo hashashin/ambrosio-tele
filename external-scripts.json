@@ -46,6 +46,7 @@
   "hubot-nba",
   "hubot-npm-tips",
   "hubot-pagespeed",
+  "hubot-piptools",
   "hubot-placeholdit",
   "hubot-postgres-brain",
   "hubot-pr-status",

@@ -59,6 +59,7 @@
     "hubot-nba": "^1.4.0",
     "hubot-npm-tips": "^1.0.2",
     "hubot-pagespeed": "0.0.5",
+    "hubot-piptools": "github:achiku/hubot-piptools",
     "hubot-placeholdit": "^1.0.2",
     "hubot-postgres-brain": "github:changhaitravis/hubot-postgres-brain",
     "hubot-pr-status": "^0.1.2",
