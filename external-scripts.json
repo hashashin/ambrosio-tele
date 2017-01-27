@@ -82,5 +82,6 @@
   "hubot-wikipedia",
   "hubot-wolfram",
   "hubot-xkcd",
-  "hubot-youtube"
+  "hubot-youtube",
+  "hubot-youtube-feed"
 ]
