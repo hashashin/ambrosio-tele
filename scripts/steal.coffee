@@ -26,7 +26,6 @@ animalsStealingGifs = [
     "http://i.imgur.com/6pkGjBs.gif"
     "http://i.imgur.com/m7JNFyk.gif"
     "http://i.imgur.com/OmquyWZ.gif"
-    "http://i.imgur.com/HmNXJDP.jpg"
     "http://i.imgur.com/37POq2C.gif"
     "http://i.imgur.com/GuO2BEY.gif"
     "http://i.imgur.com/3Ryr1zP.gif"
@@ -38,8 +37,6 @@ animalsStealingGifs = [
     "http://i.imgur.com/1yZ8n8d.gif"
     "http://i.imgur.com/vtUqT9n.gif"
     "http://i.imgur.com/lwkIksm.gif"
-    "https://i.imgur.com/eAPNPu7.jpg"
-    "https://i.imgur.com/n86YhvQ.jpg"
     "http://i.imgur.com/EVtOYQF.gif"
     "http://i.imgur.com/06jL87e.gif"
   ]
@@ -48,9 +45,9 @@ module.exports = (robot) ->
 
   robot.respond /steal animal|animal steal/i, (msg) ->
     if robot.adapterName is "telegram"
-      robot.emit 'telegram:invoke', 'sendPhoto', {
+      robot.emit 'telegram:invoke', 'sendDocument', {
         chat_id: msg.envelope.room
-        photo: msg.random animalsStealingGifs
+        document: msg.random animalsStealingGifs
       }, (error, response) ->
         if error != null
           robot.logger.error error
