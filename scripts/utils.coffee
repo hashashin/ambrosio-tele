@@ -1,0 +1,21 @@
+# Description:
+#   utils
+#
+# Configuration:
+#
+# Dependencies:
+#
+# Commands:
+#   hubot version
+#
+# Author:
+#   hashashin
+#
+
+version = process.env.HEROKU_RELEASE_VERSION
+desc = process.env.HEROKU_SLUG_DESCRIPTION
+rdate = process.env.HEROKU_RELEASE_CREATED_AT
+
+module.exports = (robot) ->
+  robot.respond /version/i, (msg) ->
+    msg.send "I'm at version: #{version}\n #{desc} - #{rdate}"
