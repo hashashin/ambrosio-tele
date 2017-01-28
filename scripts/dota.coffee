@@ -23,9 +23,10 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         try
           json = JSON.parse(body)
+          heroes = ""
           for names in json.result.heroes
-            msg.send names.localized_name
-          msg.send "Total: " + json.result.count
+            heroes += " #{names.localized_name} "
+          msg.send "```\n\u200BTotal: #{json.result.count}/n#{heroes}/n```"
         catch err
           msg.send err
 
