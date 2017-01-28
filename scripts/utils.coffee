@@ -18,4 +18,4 @@ rdate = process.env.HEROKU_RELEASE_CREATED_AT
 
 module.exports = (robot) ->
   robot.respond /version/i, (msg) ->
-    msg.send "I'm at version: #{version}\n #{desc} - #{rdate}"
+    msg.send "I'm at version: #{version}\n#{desc} - #{rdate}"
