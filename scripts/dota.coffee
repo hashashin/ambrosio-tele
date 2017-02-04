@@ -31,7 +31,7 @@ module.exports = (robot) ->
           msg.send err
 
   robot.respond /dotanews/i, (msg) ->
-    msg.http(api_url + "/ISteamNews/GetNewsForApp/v0002/?appid=570&count=10")
+    msg.http(api_url + "/ISteamNews/GetNewsForApp/v0002/?appid=570&count=5")
       .get() (err, res, body) ->
         try
           json = JSON.parse(body)
