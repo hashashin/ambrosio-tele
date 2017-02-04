@@ -89,11 +89,11 @@ class HubotShell
     cp.exec command, (error, stdout, stderr) ->
 
       if stdout? && stdout != ''
-        respond msg, stdout
+        respond msg, "```\n\u200B#{stdout}```"
 
       if stderr? && stderr != ''
         msg.send "`STDERR`"
-        respond msg, stderr
+        respond msg, "```\n\u200B#{stderr}```"
 
 module.exports = (robot) ->
 
