@@ -22,6 +22,7 @@ reboot_message = process.env.HUBOT_REBOOT_MESSAGE ? 'Bye, cruel world!'
 module.exports = (robot) ->
   robot.respond /(.*)/i, (msg) ->
     return unless msg.match[1] is command
+    robot.brain.save()
     msg.send reboot_message
     robot.logger.info 'Rebooting as requested by ' + msg.envelope.user.id
     setTimeout ->
