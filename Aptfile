@@ -1,1 +1,5 @@
 bsdmainutils
+whois
+traceroute
+dnsutils
+iputils-ping
