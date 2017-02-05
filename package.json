@@ -68,7 +68,7 @@
     "hubot-placeholdit": "^1.0.2",
     "hubot-postgres-brain": "github:changhaitravis/hubot-postgres-brain",
     "hubot-pr-status": "^0.1.2",
-    "hubot-pugme": "https://github.com/hashashin/hubot-pugme/tarball/telegram",
+    "hubot-pugme": "github:hashashin/hubot-pugme",
     "hubot-pwned": "^0.1.0",
     "hubot-pwqgen": "0.0.5",
     "hubot-qr-generator": "^1.0.0",
