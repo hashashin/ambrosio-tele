@@ -19,7 +19,7 @@
 cp = require 'child_process'
 
 # The below function is used to rate-limit messages being sent to Slack and other clients when streaming stdout
-respond = (msg, str, wrap = '```\n\u200B') ->
+respond = (msg, str, wrap = '```\u200B') ->
   len = 3000
   _size = Math.ceil(str.length / len)
   _ret = new Array(_size)
