@@ -23,6 +23,7 @@
   "hubot-github-expand",
   "hubot-github-merge",
   "hubot-github-repo-event-notifier",
+  "hubot-github-status",
   "hubot-google-images",
   "hubot-google-news",
   "hubot-hashme",

@@ -3,7 +3,6 @@
    "twitter.coffee",
    "twitter_stream.coffee",
    "github-search.coffee",
-   "github-status.coffee",
    "room-info.coffee",
    "botsnack.coffee",
    "hackernews.coffee",
