@@ -16,6 +16,7 @@ notifications:
   on_start: always   # default: never
 env:
   - CXX=g++-4.8
+  - CC=gcc-4.8
 addons:
   apt:
     sources:
