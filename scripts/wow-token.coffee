@@ -20,6 +20,6 @@ module.exports = (robot) ->
         json = JSON.parse(body)
         switch res.statusCode                                
           when 200
-            msg.send "wow token prize: #{json.EU.formatted.buy}"
+            msg.send "wow token prize: #{json.update.EU.formatted.buy}"
           else
             msg.send "There was an error (status: #{res.statusCode})."
