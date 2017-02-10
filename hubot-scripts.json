@@ -6,6 +6,7 @@
    "room-info.coffee",
    "botsnack.coffee",
    "hackernews.coffee",
+   "heroku-status.coffee",
    "countdown.coffee",
    "remember.coffee",
    "stallman.coffee",
