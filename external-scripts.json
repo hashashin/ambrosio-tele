@@ -80,6 +80,7 @@
   "hubot-travisci-notifier",
   "hubot-twitch",
   "hubot-uuid",
+  "hubot-virustotal",
   "hubot-whatthecommit",
   "hubot-where",
   "hubot-whois",

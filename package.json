@@ -99,6 +99,7 @@
     "hubot-travisci-notifier": "https://github.com/1syo/hubot-travisci-notifier/tarball/master",
     "hubot-twitch": "git+https://github.com/hashashin/hubot-twitch.git",
     "hubot-uuid": "^1.0.0",
+    "hubot-virustotal": "0.0.2",
     "hubot-whatthecommit": "github:hashashin/hubot-whatthecommit",
     "hubot-where": "^0.1.0",
     "hubot-whois": "0.0.6",
