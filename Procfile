@@ -1,1 +1,1 @@
-web: bin/hubot -a telegram --alias !
+web: bin/hubot -a telegram
