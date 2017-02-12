@@ -133,6 +133,7 @@
     "grunt-contrib-watch": "~1.0.0"
   },
   "engines": {
-    "node": "6.9.5"
+    "node": "6.9.5",
+    "npm": "4.2.0"
   }
 }
