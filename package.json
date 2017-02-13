@@ -5,7 +5,7 @@
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for myself",
   "scripts": {
-    "test": "grunt test"
+    "test": "mocha --compilers coffee:coffee-script/register tests"
   },
   "cacheDirectories": [
     ".npm",
@@ -122,15 +122,13 @@
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "devDependencies": {
-    "grunt": "*",
-    "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*",
-    "grunt-mocha-test": "~0.13.2",
-    "grunt-release": "~0.14.0",
-    "matchdep": "~1.0.1",
-    "grunt-contrib-watch": "~1.0.0"
+    "chai": "^2.3.0",
+    "coffee-script": "^1.9.3",
+    "coffeelint": "^1.9.4",
+    "hubot-test-helper": "0.0.6",
+    "mocha": "^2.2.5",
+    "nock": "^2.3.0",
+    "sinon": "^1.14.1"
   },
   "engines": {
     "node": "6.9.5",
