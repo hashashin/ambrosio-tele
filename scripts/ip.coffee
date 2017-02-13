@@ -6,19 +6,19 @@
 #
 # Configuration:
 #  None
-# 
+#
 # Commands:
-#   hubot ip - Returns Hubot server's external IP address 
+#   hubot ip - Returns Hubot server's external IP address
 #
 # Author:
 #   hashashin
-     
+
 module.exports = (robot) ->
   robot.respond /ip/i, (msg) ->
     msg.http("https://jsonip.com")
       .get() (err, res, body) ->
         json = JSON.parse(body)
-        switch res.statusCode                                
+        switch res.statusCode
           when 200
             msg.send "External IP address: #{json.ip}"
           else

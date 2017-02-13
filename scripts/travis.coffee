@@ -19,7 +19,7 @@ url = require('url')
 querystring = require('querystring')
 
 module.exports = (robot) ->
-  
+
   robot.respond /travis me (.*)/i, (msg) ->
     project = escape(msg.match[1])
     msg.http("https://api.travis-ci.org/repos/#{project}")

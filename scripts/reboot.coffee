@@ -8,7 +8,7 @@
 # Dependencies:
 #
 # Commands:
-#   hubot reboot - tells hubot to die. 
+#   hubot reboot - tells hubot to die.
 #
 # Author:
 #   hashashin
