@@ -123,12 +123,12 @@
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "devDependencies": {
-    "chai": "^2.3.0",
+    "chai": "^3.5.0",
     "coffee-script": "^1.9.3",
     "coffeelint": "^1.9.4",
     "hubot-test-helper": "0.0.6",
-    "mocha": "^2.2.5",
-    "nock": "^2.3.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.5",
     "sinon": "^1.14.1"
   },
   "engines": {
