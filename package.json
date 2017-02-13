@@ -43,6 +43,7 @@
     "hubot-github-status": "^0.2.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-news": "git+https://github.com/hashashin/hubot-google-news.git",
+    "hubot-google-tts": "^1.0.0",
     "hubot-hashme": "^0.5.1",
     "hubot-hearthstone": "https://github.com/hashashin/hubot-hearthstone/tarball/master",
     "hubot-help": "^0.2.0",

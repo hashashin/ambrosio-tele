@@ -26,6 +26,7 @@
   "hubot-github-status",
   "hubot-google-images",
   "hubot-google-news",
+  "hubot-google-tts",
   "hubot-hashme",
   "hubot-hearthstone",
   "hubot-help",
