@@ -43,7 +43,7 @@
     "hubot-github-status": "^0.2.1",
     "hubot-google-images": "^0.2.6",
     "hubot-google-news": "git+https://github.com/hashashin/hubot-google-news.git",
-    "hubot-google-tts": "^1.0.0",
+    "hubot-google-tts": "^1.0.1",
     "hubot-hashme": "^0.5.1",
     "hubot-hearthstone": "https://github.com/hashashin/hubot-hearthstone/tarball/master",
     "hubot-help": "^0.2.0",
@@ -129,7 +129,7 @@
     "coffeelint": "^1.9.4",
     "hubot-test-helper": "0.0.6",
     "mocha": "^3.2.0",
-    "nock": "^9.0.5",
+    "nock": "^9.0.6",
     "sinon": "^1.14.1"
   },
   "engines": {
