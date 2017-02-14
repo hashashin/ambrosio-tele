@@ -5,7 +5,7 @@
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for myself",
   "scripts": {
-    "test": "snyk test && mocha --compilers coffee:coffee-script/register test",
+    "test": "snyk test && snyk monitor && mocha --compilers coffee:coffee-script/register test",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect",
     "snyk-auth": "snyk auth $SNYK_API_KEY"
