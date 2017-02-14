@@ -32,3 +32,6 @@ addons:
 before_install:
   - npm install -g npm@'=4.2.0'
   - npm --version
+script:
+  - npm run snyk-auth
+  - npm test

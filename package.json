@@ -7,7 +7,8 @@
   "scripts": {
     "test": "snyk test && mocha --compilers coffee:coffee-script/register test",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "snyk-auth": "snyk auth $SNYK_API_KEY"
   },
   "cacheDirectories": [
     ".npm",
