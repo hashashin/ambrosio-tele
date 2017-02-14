@@ -21,4 +21,4 @@ module.exports = (robot) ->
           robot.logger.error error
         robot.logger.debug response
   else
-    robot.logger.info "You're not using telegram adapter, bye."
+    robot.logger.debug "You're not using telegram adapter, bye."

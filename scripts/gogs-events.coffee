@@ -1,8 +1,8 @@
 # Description:
-#   gogs simple webhook
+#   gogs simple webhook for hubot
 #
 # Dependencies:
-#
+#   tinyurl
 # Configuration:
 #
 # Commands:

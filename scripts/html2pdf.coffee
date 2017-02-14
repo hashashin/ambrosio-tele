@@ -8,8 +8,9 @@
 #  HUBOT_HTML2PDF_URL
 #
 # Commands
-#  hubot html2pdf <url>
-#  hubot pdf me <url>
+#  hubot html2pdf <url> - returns pdf url
+#  hubot pdf me <url> - returns pdf file, only with telegram adapter
+#
 # Author:
 #  hahashin
 
@@ -28,5 +29,3 @@ module.exports = (robot) ->
         if error != null
           robot.logger.error error
         robot.logger.debug response
-  else
-    robot.logger.info "You're not using telegram adapter, bye."

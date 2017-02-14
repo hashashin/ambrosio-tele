@@ -14,7 +14,7 @@ module.exports = (robot) ->
 
     if permitted_user user # allow permitted room or user (direct message)
       receive_org.bind(robot)(msg)
-      robot.logger.info "approved message, from #{user}"
+      robot.logger.debug "approved message, from #{user}"
     else
-      robot.logger.info "ignored message, from #{user}"
+      robot.logger.debug "ignored message, from #{user}"
       robot.send process.env.SHELL_ROOM, "ignored message, from #{user}"
