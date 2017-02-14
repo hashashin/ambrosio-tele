@@ -32,6 +32,3 @@ before_script:
 before_install:
   - npm install -g npm@'=4.2.0'
   - npm --version
-  - npm install -g coffeelint
-  - wget https://gist.githubusercontent.com/hashashin/83e7d879f538ea6d36d809fa75234acc/raw/79a5815ea507042bd92c50278e2a7a951d038adf/lint.cfg
-  - coffeelint -f lint.cfg scripts/*
