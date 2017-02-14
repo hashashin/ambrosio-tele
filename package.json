@@ -5,7 +5,9 @@
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for myself",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register test"
+    "test": "snyk test && mocha --compilers coffee:coffee-script/register test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "cacheDirectories": [
     ".npm",
@@ -47,7 +49,7 @@
     "hubot-hashme": "^0.5.1",
     "hubot-hearthstone": "https://github.com/hashashin/hubot-hearthstone/tarball/master",
     "hubot-help": "^0.2.0",
-    "hubot-heroku-deploy-notifier": "^0.1.4",
+    "hubot-heroku-deploy-notifier": "github:hashashin/hubot-heroku-deploy-notifier",
     "hubot-http-status": "^0.2.2",
     "hubot-httpdog": "^1.0.1",
     "hubot-in-space": "^2.0.0",
@@ -97,7 +99,7 @@
     "hubot-terminal-calendar": "github:hashashin/hubot-terminal-calendar",
     "hubot-timezone": "^1.0.1",
     "hubot-traffic": "^1.1.2",
-    "hubot-travisci-notifier": "https://github.com/1syo/hubot-travisci-notifier/tarball/master",
+    "hubot-travisci-notifier": "github:hashashin/hubot-travisci-notifier",
     "hubot-twitch": "git+https://github.com/hashashin/hubot-twitch.git",
     "hubot-uuid": "^1.0.0",
     "hubot-virustotal": "0.1.0",
@@ -121,7 +123,8 @@
     "tinyurl": "^1.1.2",
     "twit": "^2.2.5",
     "underscore": "^1.8.3",
-    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
+    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master",
+    "snyk": "^1.25.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -135,5 +138,6 @@
   "engines": {
     "node": "6.9.5",
     "npm": "4.2.0"
-  }
+  },
+  "snyk": true
 }
