@@ -14,8 +14,12 @@ patch:
   'npm:negotiator:20160616':
     - hubot-geo > hubot > express > connect > compression > accepts > negotiator:
         patched: '2017-02-14T06:40:36.545Z'
+      hubot-devopsreactions > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2017-02-15T06:29:39.047Z'
     - hubot-geo > hubot > express > connect > serve-index > accepts > negotiator:
         patched: '2017-02-14T06:40:36.545Z'
+      hubot-devopsreactions > hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2017-02-15T06:29:39.047Z'
     - hubot-insultos > hubot > express > connect > compression > accepts > negotiator:
         patched: '2017-02-14T06:40:36.545Z'
     - hubot-insultos > hubot > express > connect > serve-index > accepts > negotiator:
