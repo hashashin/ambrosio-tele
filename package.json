@@ -31,7 +31,7 @@
     "hubot-cron-checker": "^0.1.0",
     "hubot-currency": "^1.0.1",
     "hubot-debpkg": "^1.0.3",
-    "hubot-devopsreactions": "0.0.2",
+    "hubot-devopsreactions": "github:hashashin/hubot-devopsreactions",
     "hubot-diagnostics": "0.0.1",
     "hubot-dns-watch": "https://github.com/hashashin/hubot-dns-watch/tarball/mystuff",
     "hubot-dragonball": "^1.0.1",
