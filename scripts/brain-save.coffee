@@ -7,4 +7,3 @@ module.exports = (robot) ->
     robot.brain.setAutoSave true
     robot.brain.save()
     msg.send "Done, brain saved."
-

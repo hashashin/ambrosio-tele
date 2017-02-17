@@ -2,7 +2,7 @@
 #   utils
 #
 # Configuration:
-#
+#    Enable runtime-dyno-metadata form heroku labs
 # Dependencies:
 #
 # Commands:

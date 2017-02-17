@@ -5,7 +5,7 @@
 #   None
 #
 # Configuration:
-#   None
+#   STEAM_API_KEY
 #
 # Commands:
 #   hubot heroes

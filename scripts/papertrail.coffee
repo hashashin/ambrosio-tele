@@ -4,7 +4,8 @@
 # Dependencies:
 #
 # Configuration:
-#
+#   PAPERTRAIL_SALT
+#   HUBOT_GITHUB_EVENT_NOTIFIER_ROOM
 # Commands:
 #
 # Author:
