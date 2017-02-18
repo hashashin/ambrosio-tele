@@ -21,6 +21,7 @@
   "hubot-gistme",
   "hubot-github-assign-issues",
   "hubot-github-compare",
+  "hubot-github-contribution-stats",
   "hubot-github-expand",
   "hubot-github-merge",
   "hubot-github-repo-event-notifier",
