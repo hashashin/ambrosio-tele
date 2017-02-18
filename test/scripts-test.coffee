@@ -58,10 +58,10 @@ describe 'dumb tests for my scripts', ->
         ['hubot', 'ignored message, from bill']
       ]
 
-  context 'user says die to hubot', ->
+  context 'user says reboot to hubot', ->
     beforeEach ->
       sinon.stub process, "exit"
-      room.user.say 'mary', 'hubot die'
+      room.user.say 'mary', 'hubot reboot'
 
     afterEach ->
       process.exit.restore()
@@ -69,7 +69,7 @@ describe 'dumb tests for my scripts', ->
     it 'should not tell the room it is leaving', ->
       expect(room.messages).to.eql [
         ['hubot', 'Hello, cruel world!']
-        ['mary', 'hubot die']
+        ['mary', 'hubot reboot']
         ['hubot', 'ignored message, from mary']
       ]
 
