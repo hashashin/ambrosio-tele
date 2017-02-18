@@ -100,7 +100,7 @@
     "hubot-ssl-certificate-expiration-check": "0.0.2",
     "hubot-statistics": "^1.2.2",
     "hubot-steam-webapi": "^2.2.0",
-    "hubot-suggest": "0.0.2",
+    "hubot-suggest": "1.0.0",
     "hubot-task-manager": "^0.9.1",
     "hubot-telegram": "^0.1.2",
     "hubot-terminal-calendar": "github:hashashin/hubot-terminal-calendar",
@@ -135,7 +135,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "coffee-script": "^1.9.3",
+    "coffee-script": "^1.12.4",
     "coffeelint": "^1.9.4",
     "hubot-test-helper": "0.0.6",
     "mocha": "^3.2.0",
