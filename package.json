@@ -67,6 +67,7 @@
     "hubot-keys": "^2.1.2",
     "hubot-lmgtfy": "^0.1.1",
     "hubot-logo": "0.0.8",
+    "hubot-manpages": "github:met-office-lab/hubot-manpages",
     "hubot-maps": "0.0.2",
     "hubot-memes": "^1.6.2",
     "hubot-morse": "^1.0.3",
