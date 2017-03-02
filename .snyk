@@ -1,6 +1,56 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.7.0
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:qs:20170213':
+    - hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.818Z'
+    - hubot-geo > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.818Z'
+    - hubot-insultos > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.818Z'
+    - hubot-memes > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.819Z'
+    - hubot-devopsreactions > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.819Z'
+    - hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.821Z'
+    - hubot-geo > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.821Z'
+    - hubot-insultos > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.822Z'
+    - hubot-memes > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.822Z'
+    - hubot-devopsreactions > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.823Z'
+    - hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.823Z'
+    - hubot-geo > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.824Z'
+    - hubot-insultos > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.824Z'
+    - hubot-memes > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.824Z'
+    - hubot-devopsreactions > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.825Z'
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request > qs:
+        reason: None given
+        expires: '2017-04-01T10:21:33.826Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
