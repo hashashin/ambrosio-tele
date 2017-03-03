@@ -14,6 +14,7 @@
 #
 # Author:
 #   hashashin
+names = require('dota2-heroes')
 api_url = "http://api.steampowered.com"
 api_key = process.env.STEAM_API_KEY
 
@@ -50,3 +51,6 @@ module.exports = (robot) ->
         msg.send "Current Online Dota 2 players: " + json.response.player_count + " Ruskys: 99%"
       catch err
         msg.send err
+
+  robot.respond /heroe random/i, (msg) ->
+    msg.send names.random()
