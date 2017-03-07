@@ -31,7 +31,7 @@
     "hubot-calculator": "^0.4.0",
     "hubot-cleverbot-api": "github:lucasvanhalst/hubot-cleverbot",
     "hubot-codenames": "github:mudge/hubot-codenames",
-    "hubot-country": "^1.0.2",
+    "hubot-country": "^1.0.3",
     "hubot-country-time": "github:haroldputman/hubot-country-time",
     "hubot-cron-checker": "^0.1.0",
     "hubot-currency": "^1.0.1",
