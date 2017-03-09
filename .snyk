@@ -2,188 +2,93 @@
 version: v1.7.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
-  'npm:qs:20170213':
-    - hubot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.818Z'
-    - hubot-geo > hubot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.818Z'
-    - hubot-insultos > hubot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.818Z'
-    - hubot-memes > hubot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.819Z'
-    - hubot-devopsreactions > hubot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.819Z'
-    - hubot > express > connect > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.821Z'
-    - hubot-geo > hubot > express > connect > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.821Z'
-    - hubot-insultos > hubot > express > connect > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.822Z'
-    - hubot-memes > hubot > express > connect > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.822Z'
-    - hubot-devopsreactions > hubot > express > connect > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.823Z'
-    - hubot > express > connect > body-parser > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.823Z'
-    - hubot-geo > hubot > express > connect > body-parser > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.824Z'
-    - hubot-insultos > hubot > express > connect > body-parser > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.824Z'
-    - hubot-memes > hubot > express > connect > body-parser > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.824Z'
-    - hubot-devopsreactions > hubot > express > connect > body-parser > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.825Z'
-    - hubot-pagespeed > psi > gpagespeed > googleapis > request > qs:
-        reason: None given
-        expires: '2017-04-01T10:21:33.826Z'
-    - hubot-howdoi > scraper > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.175Z'
-    - hubot-howdoi > scraper > jsdom > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.175Z'
-    - libxmljs > node-pre-gyp > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.175Z'
-    - hubot-github-contribution-stats > gyazo-api > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.175Z'
-    - hubot-github-contribution-stats > svg2png > phantomjs-prebuilt > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.176Z'
-    - hubot-github-contribution-stats > github-contribution-stats > cheerio > jsdom > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.176Z'
-    - wolfram > libxmljs > node-pre-gyp > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.176Z'
-    - hubot-wolfram > node-wolfram-api > libxmljs > node-pre-gyp > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.176Z'
-    - snyk > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.176Z'
-    - hubot-pagespeed > psi > gpagespeed > googleapis > gapitoken > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.177Z'
-    - hubot-reaction > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.177Z'
-    - hubot-debpkg > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - hubot-hashme > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - hubot-soccer > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - jsdom > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - twit > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - find-rss > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - hubot-fmg > fmg2 > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.173Z'
-    - hubot-gistme > octonode > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - hubot-iss > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - hubot-iss > node-geocoder > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - hubot-telegram > telegrambot > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - hubot-rss-reader > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - hubot-rss-reader > find-rss > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - hubot-google-news > hubot-request-arm > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.174Z'
-    - scraper > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.175Z'
-    - scraper > jsdom > request > qs:
-        reason: None given
-        expires: '2017-04-05T14:09:45.175Z'
   'npm:concat-stream:20160901':
     - hubot-github-contribution-stats > svg2png > phantomjs-prebuilt > extract-zip > concat-stream:
         reason: None given
-        expires: '2017-04-08T15:09:32.735Z'
+        expires: '2017-04-08T15:31:41.724Z'
     - hubot-pagespeed > psi > gpagespeed > googleapis > gapitoken > jws > base64url > concat-stream:
         reason: None given
-        expires: '2017-04-08T15:09:32.735Z'
+        expires: '2017-04-08T15:31:41.725Z'
+  'npm:qs:20170213':
+    - hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.725Z'
+    - hubot-geo > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.726Z'
+    - hubot-insultos > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.726Z'
+    - hubot-memes > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.727Z'
+    - hubot-devopsreactions > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.728Z'
+    - hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.728Z'
+    - hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.728Z'
+    - hubot-geo > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.729Z'
+    - hubot-geo > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.730Z'
+    - hubot-insultos > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.733Z'
+    - hubot-insultos > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.733Z'
+    - hubot-memes > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.734Z'
+    - hubot-memes > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.734Z'
+    - hubot-devopsreactions > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.734Z'
+    - hubot-devopsreactions > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.735Z'
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request > qs:
+        reason: None given
+        expires: '2017-04-08T15:31:41.735Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
     - hubot-pagespeed > psi > gpagespeed > googleapis > request > hawk:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot-reaction > request > hawk:
-        patched: '2017-02-14T06:40:36.545Z'
+        patched: '2017-03-09T15:30:27.493Z'
   'npm:minimatch:20160620':
     - hubot-ssl-certificate-expiration-check > mocha > glob > minimatch:
-        patched: '2017-02-14T06:40:36.545Z'
-      bulk-require > glob > minimatch:
-        patched: '2017-03-09T15:08:11.900Z'
+        patched: '2017-03-09T15:30:27.493Z'
     - hubot-country > countryjs > bulk-require > glob > minimatch:
-        patched: '2017-03-07T21:58:01.452Z'
-      countryjs > bulk-require > glob > minimatch:
-        patched: '2017-03-09T15:08:11.900Z'
+        patched: '2017-03-09T15:30:27.493Z'
   'npm:negotiator:20160616':
-    - hubot-geo > hubot > express > connect > compression > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
     - hubot-geo > hubot > express > connect > serve-index > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot-insultos > hubot > express > connect > compression > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot-insultos > hubot > express > connect > serve-index > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot-memes > hubot > express > connect > compression > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot-memes > hubot > express > connect > serve-index > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
+        patched: '2017-03-09T15:30:27.493Z'
     - hubot > express > connect > compression > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot > express > connect > serve-index > accepts > negotiator:
-        patched: '2017-02-14T06:40:36.545Z'
+        patched: '2017-03-09T15:30:27.493Z'
+    - hubot-insultos > hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2017-03-09T15:30:27.493Z'
+    - hubot-memes > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2017-03-09T15:30:27.493Z'
+    - hubot-memes > hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2017-03-09T15:30:27.493Z'
     - hubot-devopsreactions > hubot > express > connect > compression > accepts > negotiator:
-        patched: '2017-02-15T06:29:39.047Z'
+        patched: '2017-03-09T15:30:27.493Z'
     - hubot-devopsreactions > hubot > express > connect > serve-index > accepts > negotiator:
-        patched: '2017-02-15T06:29:39.047Z'
-  'npm:qs:20140806':
-    - hubot-reaction > request > qs:
-        patched: '2017-02-14T06:45:52.087Z'
-  'npm:qs:20140806-1':
-    - hubot-reaction > request > qs:
-        patched: '2017-02-14T06:40:36.545Z'
+        patched: '2017-03-09T15:30:27.493Z'
+    - hubot-insultos > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2017-03-09T15:30:27.493Z'
+    - hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2017-03-09T15:30:27.493Z'
+    - hubot-geo > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2017-03-09T15:30:27.493Z'
   'npm:request:20160119':
     - hubot-pagespeed > psi > gpagespeed > googleapis > request:
-        patched: '2017-02-14T06:40:36.545Z'
-    - hubot-reaction > request:
-        patched: '2017-02-14T06:40:36.545Z'
+        patched: '2017-03-09T15:30:27.493Z'
