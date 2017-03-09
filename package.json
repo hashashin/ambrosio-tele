@@ -132,7 +132,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.17.1",
     "nodepie": "^0.7.0",
-    "pg": "^6.1.3",
+    "pg": "^6.1.4",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
     "snyk": "^1.25.2",
