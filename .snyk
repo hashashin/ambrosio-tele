@@ -132,6 +132,13 @@ ignore:
     - scraper > jsdom > request > qs:
         reason: None given
         expires: '2017-04-05T14:09:45.175Z'
+  'npm:concat-stream:20160901':
+    - hubot-github-contribution-stats > svg2png > phantomjs-prebuilt > extract-zip > concat-stream:
+        reason: None given
+        expires: '2017-04-08T15:09:32.735Z'
+    - hubot-pagespeed > psi > gpagespeed > googleapis > gapitoken > jws > base64url > concat-stream:
+        reason: None given
+        expires: '2017-04-08T15:09:32.735Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
@@ -142,8 +149,12 @@ patch:
   'npm:minimatch:20160620':
     - hubot-ssl-certificate-expiration-check > mocha > glob > minimatch:
         patched: '2017-02-14T06:40:36.545Z'
-      hubot-country > countryjs > bulk-require > glob > minimatch:
+      bulk-require > glob > minimatch:
+        patched: '2017-03-09T15:08:11.900Z'
+    - hubot-country > countryjs > bulk-require > glob > minimatch:
         patched: '2017-03-07T21:58:01.452Z'
+      countryjs > bulk-require > glob > minimatch:
+        patched: '2017-03-09T15:08:11.900Z'
   'npm:negotiator:20160616':
     - hubot-geo > hubot > express > connect > compression > accepts > negotiator:
         patched: '2017-02-14T06:40:36.545Z'
