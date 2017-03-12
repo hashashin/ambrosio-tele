@@ -13,6 +13,9 @@ ignore:
     - hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.725Z'
+      webbybot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-11T18:06:15.101Z'
     - hubot-geo > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.726Z'
