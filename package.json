@@ -120,6 +120,7 @@
     "hubot-traffic": "^1.1.2",
     "hubot-travisci-notifier": "github:hashashin/hubot-travisci-notifier",
     "hubot-twitch": "git+https://github.com/hashashin/hubot-twitch.git",
+    "hubot-urban-dict": "^0.1.3",
     "hubot-uuid": "^1.0.0",
     "hubot-virustotal": "0.1.1",
     "hubot-whatthecommit": "github:hashashin/hubot-whatthecommit",
