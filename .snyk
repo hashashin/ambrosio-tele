@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.7.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:concat-stream:20160901':
@@ -13,9 +13,6 @@ ignore:
     - hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.725Z'
-      webbybot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-04-11T18:06:15.101Z'
     - hubot-geo > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.726Z'
@@ -61,6 +58,9 @@ ignore:
     - hubot-pagespeed > psi > gpagespeed > googleapis > request > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.735Z'
+    - webbybot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-04-11T18:06:15.101Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
