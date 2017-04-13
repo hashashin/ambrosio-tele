@@ -140,7 +140,7 @@
     "pg": "^6.1.5",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
-    "snyk": "^1.28.0",
+    "snyk": "^1.28.1",
     "tinyurl": "^1.1.2",
     "twit": "^2.2.5",
     "underscore": "^1.8.3",
