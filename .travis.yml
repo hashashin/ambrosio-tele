@@ -1,12 +1,13 @@
 language: node_js
 node_js:
    - "6.10.2"
+   - "7.9.0"
 cache:
   directories:
     - node_modules
 matrix:
   allow_failures:
-    - node_js: "7.5.0"
+    - node_js: "7.9.0"
   fast_finish: true
 notifications:
   email: false
@@ -30,7 +31,7 @@ addons:
 #  - psql -c 'create database storage;' -U postgres
 #  - psql -c "CREATE TABLE hubot ( id CHARACTER VARYING(1024) NOT NULL, storage JSON, CONSTRAINT hubot_pkey PRIMARY KEY (id)); INSERT INTO hubot VALUES(1, NULL);" -U postgres storage
 before_install:
-  - npm install -g npm@'=4.4.4'
+  - npm install -g npm@'=4.5.0'
   - npm --version
 script:
   - npm run snyk-auth
