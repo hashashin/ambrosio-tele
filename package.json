@@ -33,6 +33,7 @@
     "hubot-catnames": "^1.0.0",
     "hubot-cleverbot-api": "github:lucasvanhalst/hubot-cleverbot",
     "hubot-codenames": "github:mudge/hubot-codenames",
+    "hubot-cool-ascii-faces": "^1.2.0",
     "hubot-country": "^1.0.3",
     "hubot-country-time": "github:haroldputman/hubot-country-time",
     "hubot-cron-checker": "^0.1.0",
