@@ -13,9 +13,6 @@ ignore:
     - hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.725Z'
-      webbybot > connect-multiparty > qs:
-        reason: None given
-        expires: '2017-05-13T01:10:48.215Z'
     - hubot-geo > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.726Z'
@@ -103,6 +100,9 @@ ignore:
     - hubot-pagespeed > psi > gpagespeed > googleapis > request > qs:
         reason: None given
         expires: '2017-05-11T01:14:01.722Z'
+    - webbybot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-05-13T01:10:48.215Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
