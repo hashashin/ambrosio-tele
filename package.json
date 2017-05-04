@@ -133,7 +133,7 @@
     "hubot-xkcd": "https://github.com/hashashin/hubot-xkcd/tarball/master",
     "hubot-youtube": "^1.0.2",
     "hubot-youtube-feed": "0.0.6",
-    "jsdom": "^10.0.0",
+    "jsdom": "^10.1.0",
     "libxmljs": "^0.18.4",
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
@@ -141,7 +141,7 @@
     "pg": "^6.1.5",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/ifit/node-scraper/tarball/master",
-    "snyk": "^1.29.0",
+    "snyk": "^1.30.0",
     "tinyurl": "^1.1.2",
     "twit": "^2.2.5",
     "underscore": "^1.8.3",
@@ -154,10 +154,10 @@
     "hubot-test-helper": "0.0.6",
     "mocha": "^3.3.0",
     "nock": "^9.0.13",
-    "sinon": "^2.1.0"
+    "sinon": "^2.2.0"
   },
   "engines": {
-    "node": "6.10.2",
+    "node": "6.10.3",
     "npm": "4.5.0"
   },
   "snyk": true

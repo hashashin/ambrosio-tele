@@ -103,6 +103,10 @@ ignore:
     - webbybot > connect-multiparty > qs:
         reason: None given
         expires: '2017-05-13T01:10:48.215Z'
+  'npm:growl:20160721':
+    - hubot-ssl-certificate-expiration-check > mocha > growl:
+        reason: None given
+        expires: '2017-06-03T22:19:04.230Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
