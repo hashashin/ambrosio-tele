@@ -152,7 +152,7 @@
     "chai": "^3.5.0",
     "coffeelint": "^1.9.4",
     "hubot-test-helper": "0.0.6",
-    "mocha": "^3.3.0",
+    "mocha": "^3.4.1",
     "nock": "^9.0.13",
     "sinon": "^2.2.0"
   },
