@@ -154,7 +154,7 @@
     "hubot-test-helper": "0.0.6",
     "mocha": "^3.4.2",
     "nock": "^9.0.13",
-    "sinon": "^2.3.0"
+    "sinon": "^2.3.1"
   },
   "engines": {
     "node": "6.10.3",
