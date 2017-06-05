@@ -148,7 +148,7 @@ ignore:
   'npm:growl:20160721':
     - hubot-ssl-certificate-expiration-check > mocha > growl:
         reason: None given
-        expires: '2017-06-03T22:19:04.230Z'
+        expires: '2017-07-05T22:35:03.979Z'
   'npm:ms:20170412':
     - hubot-steam-webapi > ref > debug > ms:
         reason: None given
@@ -475,3 +475,6 @@ patch:
   'npm:request:20160119':
     - hubot-pagespeed > psi > gpagespeed > googleapis > request:
         patched: '2017-03-09T15:30:27.493Z'
+  'npm:ms:20170412':
+    - clite > debug > ms:
+        patched: '2017-06-05T22:34:40.300Z'
