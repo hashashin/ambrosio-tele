@@ -5,53 +5,95 @@ ignore:
   'npm:concat-stream:20160901':
     - hubot-github-contribution-stats > svg2png > phantomjs-prebuilt > extract-zip > concat-stream:
         reason: None given
-        expires: '2017-06-12T20:25:31.695Z'
+        expires: '2017-07-16T00:19:22.345Z'
     - hubot-pagespeed > psi > gpagespeed > googleapis > gapitoken > jws > base64url > concat-stream:
         reason: None given
-        expires: '2017-06-12T20:25:31.696Z'
+        expires: '2017-07-16T00:19:22.345Z'
   'npm:qs:20170213':
     - hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.725Z'
+      webbybot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.345Z'
     - hubot-geo > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.726Z'
+      hubot-geo > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.345Z'
     - hubot-insultos > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.726Z'
+      hubot-geo > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.345Z'
     - hubot-memes > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.727Z'
+      hubot-insultos > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.346Z'
     - hubot-devopsreactions > hubot > connect-multiparty > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.728Z'
+      hubot-insultos > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.346Z'
     - hubot > express > connect > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.728Z'
+      hubot-memes > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.346Z'
     - hubot > express > connect > body-parser > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.728Z'
+      hubot-memes > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.346Z'
     - hubot-geo > hubot > express > connect > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.729Z'
+      hubot-devopsreactions > hubot > express > connect > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.346Z'
     - hubot-geo > hubot > express > connect > body-parser > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.730Z'
+      hubot-devopsreactions > hubot > express > connect > body-parser > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.346Z'
     - hubot-insultos > hubot > express > connect > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.733Z'
+      hubot-geo > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.347Z'
     - hubot-insultos > hubot > express > connect > body-parser > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.733Z'
+      hubot-insultos > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.347Z'
     - hubot-memes > hubot > express > connect > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.734Z'
+      hubot-memes > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.347Z'
     - hubot-memes > hubot > express > connect > body-parser > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.734Z'
+      hubot-devopsreactions > hubot > connect-multiparty > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.347Z'
     - hubot-devopsreactions > hubot > express > connect > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.734Z'
+      hubot-pagespeed > psi > gpagespeed > googleapis > request > qs:
+        reason: None given
+        expires: '2017-07-16T00:19:22.347Z'
     - hubot-devopsreactions > hubot > express > connect > body-parser > qs:
         reason: None given
         expires: '2017-04-08T15:31:41.735Z'
@@ -478,3 +520,167 @@ patch:
   'npm:ms:20170412':
     - clite > debug > ms:
         patched: '2017-06-05T22:34:40.300Z'
+      hubot-github-expand > github > follow-redirects > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-nba > superagent > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-nba > nba > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-nba > nba > jsonp > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-steam-webapi > ref > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - libxmljs > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-module > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-resolve > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-resolve-deps > clite > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-policy > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-policy > snyk-module > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-policy > snyk-resolve > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-policy > snyk-try-require > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-config > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-resolve-deps > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-resolve-deps > snyk-module > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-resolve-deps > snyk-resolve > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-resolve-deps > snyk-try-require > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - snyk > snyk-try-require > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-ssl-certificate-expiration-check > mocha > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > connect-timeout > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > express-session > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > morgan > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > body-parser > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > compression > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > serve-index > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > serve-static > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > connect-timeout > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > express-session > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > morgan > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > body-parser > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > compression > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > serve-index > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > serve-static > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > connect-timeout > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > express-session > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > morgan > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > body-parser > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > compression > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > serve-index > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > serve-static > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > connect-timeout > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > express-session > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > morgan > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > body-parser > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > compression > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-index > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-static > send > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-github-expand > github > https-proxy-agent > debug > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-insultos > hubot > express > connect > serve-favicon > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-memes > hubot > express > connect > serve-favicon > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-favicon > ms:
+        patched: '2017-06-16T00:17:47.118Z'
+    - hubot-geo > hubot > express > connect > serve-favicon > ms:
+        patched: '2017-06-16T00:17:47.118Z'
