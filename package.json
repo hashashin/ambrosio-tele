@@ -5,10 +5,7 @@
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for myself",
   "scripts": {
-    "test": "snyk test && snyk monitor && mocha --compilers coffee:coffee-script/register test",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect",
-    "snyk-auth": "snyk auth $SNYK_API_KEY"
+    "test": "mocha --compilers coffee:coffee-script/register test"
   },
   "cacheDirectories": [
     ".npm",
@@ -142,7 +139,6 @@
     "pg": "^6.2.4",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
-    "snyk": "^1.34.4",
     "tinyurl": "^1.1.2",
     "twit": "^2.2.9",
     "underscore": "^1.8.3",
@@ -160,6 +156,5 @@
   "engines": {
     "node": "6.11.0",
     "npm": "4.6.1"
-  },
-  "snyk": true
+  }
 }
