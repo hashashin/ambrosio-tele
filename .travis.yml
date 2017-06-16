@@ -33,5 +33,4 @@ before_install:
   - npm install -g npm@'=4.6.1'
   - npm --version
 script:
-  - npm run snyk-auth
   - npm test
