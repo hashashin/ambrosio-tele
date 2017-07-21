@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "chrono-node": "^1.3.4",
-    "coffee-script": "^1.12.6",
+    "coffee-script": "^1.12.7",
     "date-utils": "^1.2.21",
     "dota2-heroes": "^1.3.0",
     "githubot": "^1.0.1",
@@ -136,7 +136,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "nodepie": "^0.7.0",
-    "pg": "^6.4.1",
+    "pg": "^7.0.1",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
     "tinyurl": "^1.1.2",
@@ -150,7 +150,7 @@
     "coffeelint": "^1.16.0",
     "hubot-test-helper": "0.0.6",
     "mocha": "^3.4.2",
-    "nock": "^9.0.13",
+    "nock": "^9.0.14",
     "sinon": "^2.3.8"
   },
   "engines": {
