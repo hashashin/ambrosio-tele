@@ -136,7 +136,7 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "nodepie": "^0.7.0",
-    "pg": "^7.0.1",
+    "pg": "^7.0.2",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
     "tinyurl": "^1.1.2",
