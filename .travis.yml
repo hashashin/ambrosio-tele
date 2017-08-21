@@ -34,3 +34,4 @@ before_install:
   - npm --version
 script:
   - npm test
+dist: trusty
