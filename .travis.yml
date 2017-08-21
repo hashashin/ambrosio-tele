@@ -15,13 +15,13 @@ notifications:
   on_failure: always # default: always
   on_start: always   # default: never
 env:
-  - CXX=g++-4.8 CC=gcc-4.8
+  - CXX=g++-5 CC=gcc-5
 addons:
   apt:
     sources:
       - ubuntu-toolchain-r-test
     packages:
-      - g++-4.8
+      - g++-5
       - libicu-dev
 #  postgresql: "9.4"
 #services:
