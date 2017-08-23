@@ -1,12 +1,14 @@
 language: node_js
+dist: trusty
 node_js:
    - "6.11.2"
+   - "8.4.0"
 cache:
   directories:
     - node_modules
 matrix:
   allow_failures:
-    - node_js: "7.9.0"
+    - node_js: "8.4.0"
   fast_finish: true
 notifications:
   email: false
@@ -23,15 +25,14 @@ addons:
     packages:
       - g++-5
       - libicu-dev
-#  postgresql: "9.4"
-#services:
-#  - postgresql
-#before_script:
-#  - psql -c 'create database storage;' -U postgres
-#  - psql -c "CREATE TABLE hubot ( id CHARACTER VARYING(1024) NOT NULL, storage JSON, CONSTRAINT hubot_pkey PRIMARY KEY (id)); INSERT INTO hubot VALUES(1, NULL);" -U postgres storage
+  postgresql: "9.4"
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database storage;' -U postgres
+  - psql -c "CREATE TABLE hubot ( id CHARACTER VARYING(1024) NOT NULL, storage JSON, CONSTRAINT hubot_pkey PRIMARY KEY (id)); INSERT INTO hubot VALUES(1, NULL);" -U postgres storage
 before_install:
   - npm install -g npm@'=5.3.0'
   - npm --version
 script:
   - npm test
-dist: trusty
