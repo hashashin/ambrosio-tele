@@ -2,10 +2,10 @@
 #   mem info
 #
 # Commands:
-#   hubot free - show free mem in MiB
-#   hubot used% - show used mem %
-#   hubot free% - show free mem %
-#   hubot total - show total mem
+#   hubot mem free - show free mem in MiB
+#   hubot mem used% - show used mem %
+#   hubot mem free% - show free mem %
+#   hubot mem total - show total mem
 #
 # Author:
 #   hashashin
@@ -16,14 +16,14 @@
 memStat = require('mem-stat')
 
 module.exports = (robot) ->
-  robot.respond /free(?: me)?/i, (msg) ->
+  robot.respond /mem free/i, (msg) ->
     msg.send memStat.free('MiB')
 
-  robot.respond /used%(?: me)?/i, (msg) ->
+  robot.respond /mem used/i, (msg) ->
     msg.send memStat.usedPercent()
 
-  robot.respond /free%(?: me)?/i, (msg) ->
+  robot.respond /mem free%/i, (msg) ->
     msg.send memStat.freePercent()
 
-  robot.respond /total(?: me)?/i, (msg) ->
+  robot.respond /mem total/i, (msg) ->
     msg.send memStat.total('MiB')
