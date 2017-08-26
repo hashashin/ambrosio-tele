@@ -1,1 +1,3 @@
-soccer-cli
+click==6.7
+requests==2.7.0
+soccer-cli==0.1.0.0
