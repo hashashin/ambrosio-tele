@@ -80,6 +80,7 @@
     "hubot-memes": "^1.6.2",
     "hubot-morse": "^1.0.7",
     "hubot-movie": "^0.1.0",
+    "hubot-nagios": "0.0.2",
     "hubot-nba": "^1.5.1",
     "hubot-nietzche": "^1.0.0",
     "hubot-npm-tips": "^1.0.2",
