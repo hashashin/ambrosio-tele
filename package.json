@@ -152,7 +152,7 @@
     "coffeelint": "^1.16.0",
     "hubot-test-helper": "0.0.6",
     "mocha": "^3.5.3",
-    "nock": "^9.0.20",
+    "nock": "^9.0.21",
     "sinon": "^3.3.0"
   },
   "engines": {
