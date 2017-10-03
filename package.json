@@ -132,7 +132,7 @@
     "hubot-xkcd": "https://github.com/hashashin/hubot-xkcd/tarball/master",
     "hubot-youtube": "^1.0.2",
     "hubot-youtube-feed": "0.0.6",
-    "jsdom": "^11.2.0",
+    "jsdom": "^11.3.0",
     "libxmljs": "^0.18.7",
     "lodash": "^4.17.4",
     "mem-stat": "^1.0.5",
@@ -149,9 +149,9 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "coffeelint": "^1.16.0",
+    "coffeelint": "^2.0.3",
     "hubot-test-helper": "0.0.6",
-    "mocha": "^3.5.3",
+    "mocha": "^4.0.0",
     "nock": "^9.0.22",
     "sinon": "^4.0.0"
   },
