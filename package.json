@@ -138,7 +138,7 @@
     "mem-stat": "^1.0.5",
     "moment": "^2.19.1",
     "nodepie": "^0.7.0",
-    "pg": "^7.3.0",
+    "pg": "^7.4.0",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
     "tinyurl": "^1.1.2",
