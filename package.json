@@ -136,7 +136,7 @@
     "libxmljs": "^0.18.7",
     "lodash": "^4.17.4",
     "mem-stat": "^1.0.5",
-    "moment": "^2.19.1",
+    "moment": "^2.19.2",
     "nodepie": "^0.7.0",
     "pg": "^7.4.0",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
