@@ -136,7 +136,7 @@
     "libxmljs": "^0.18.7",
     "lodash": "^4.17.4",
     "mem-stat": "^1.0.5",
-    "moment": "^2.19.4",
+    "moment": "^2.20.1",
     "nodepie": "^0.7.0",
     "pg": "^7.4.0",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
@@ -152,7 +152,7 @@
     "coffeelint": "^2.0.7",
     "hubot-test-helper": "0.0.6",
     "mocha": "^4.0.1",
-    "nock": "^9.1.4",
+    "nock": "^9.1.5",
     "sinon": "^4.1.3"
   },
   "engines": {
