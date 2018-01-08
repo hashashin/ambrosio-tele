@@ -72,7 +72,7 @@
     "hubot-isup": "^1.0.2",
     "hubot-kerbal-stuff": "0.0.5",
     "hubot-keys": "^2.1.2",
-    "hubot-lmgtfy": "^1.0.0",
+    "hubot-lmgtfy": "^1.0.1",
     "hubot-logo": "0.0.8",
     "hubot-magic-8-ball": "^1.0.0",
     "hubot-manpages": "github:met-office-lab/hubot-manpages",
