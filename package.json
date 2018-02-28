@@ -134,7 +134,7 @@
     "hubot-youtube-feed": "0.0.6",
     "jsdom": "^11.6.2",
     "libxmljs": "^0.18.7",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "mem-stat": "^1.0.5",
     "moment": "^2.20.1",
     "nodepie": "^0.7.0",
@@ -149,11 +149,11 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "coffeelint": "^2.0.7",
+    "coffeelint": "^2.1.0",
     "hubot-test-helper": "0.0.6",
     "mocha": "^4.1.0",
-    "nock": "^9.1.6",
-    "sinon": "^4.2.2"
+    "nock": "^9.2.3",
+    "sinon": "^4.4.2"
   },
   "engines": {
     "node": "8.9.4",
