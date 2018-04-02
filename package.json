@@ -5,7 +5,9 @@
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for myself",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register test"
+    "test": "mocha --compilers coffee:coffee-script/register test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "cacheDirectories": [
     ".npm",
@@ -144,7 +146,8 @@
     "tinyurl": "^1.1.2",
     "twit": "^2.2.9",
     "underscore": "^1.8.3",
-    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
+    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master",
+    "snyk": "^1.70.3"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -157,5 +160,6 @@
   "engines": {
     "node": "8.9.4",
     "npm": "5.6.0"
-  }
+  },
+  "snyk": true
 }
