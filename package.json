@@ -4,9 +4,6 @@
   "private": true,
   "author": "hashashin <gentoo.power@gmail.com>",
   "description": "A simple helpful robot for myself",
-  "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register test"
-  },
   "cacheDirectories": [
     ".npm",
     "node_modules"
