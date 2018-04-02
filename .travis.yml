@@ -11,7 +11,7 @@ matrix:
   fast_finish: true
 notifications:
   email: false
-  webhooks: https://ambrosio-tele.herokuapp.com/sacarinobot/travisci/%23general
+  webhooks: https://ambrosio-tele.herokuapp.com/ambrosio/travisci/%23general
   on_success: always # default: always
   on_failure: always # default: always
   on_start: always   # default: never
