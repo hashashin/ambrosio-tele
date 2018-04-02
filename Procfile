@@ -1,1 +1,1 @@
-web: bin/hubot -a telegram --alias Ambrosio
+web: bin/hubot -a slack --alias Ambrosio

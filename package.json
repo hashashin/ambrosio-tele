@@ -17,7 +17,7 @@
     "date-utils": "^1.2.21",
     "dota2-heroes": "^1.4.0",
     "githubot": "^1.0.1",
-    "hubot": "github:hashashin/hubot",
+    "hubot": "^2.19.0",
     "hubot-4chan": "0.0.1",
     "hubot-at": "^0.0.4",
     "hubot-binario": "^0.1.0",
@@ -39,7 +39,7 @@
     "hubot-devopsreactions": "github:hashashin/hubot-devopsreactions",
     "hubot-diagnostics": "0.0.2",
     "hubot-dns-watch": "https://github.com/hashashin/hubot-dns-watch/tarball/mystuff",
-    "hubot-domain-me": "^1.1.0",
+    "hubot-domain-me": "^2.0.2",
     "hubot-dragonball": "^1.0.1",
     "hubot-explainshell": "^1.1.0",
     "hubot-flip": "^2.17.1",
@@ -105,6 +105,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-seen": "^1.0.1",
     "hubot-shipit": "github:hashashin/hubot-shipit",
+    "hubot-slack": "^4.4.0",
     "hubot-soccer": "^1.0.0",
     "hubot-speed-test": "^1.0.1",
     "hubot-spotify-me": "^1.0.1",
@@ -114,7 +115,7 @@
     "hubot-steam-webapi": "^2.2.0",
     "hubot-suggest": "1.0.0",
     "hubot-task-manager": "^0.9.1",
-    "hubot-telegram": "https://github.com/hashashin/hubot-telegram/tarball/webby",
+    "hubot-telegram": "^0.1.2",
     "hubot-terminal-calendar": "github:hashashin/hubot-terminal-calendar",
     "hubot-timezone": "^1.0.1",
     "hubot-traffic": "^1.1.2",
@@ -138,25 +139,25 @@
     "mem-stat": "^1.0.5",
     "moment": "^2.20.1",
     "nodepie": "^0.7.0",
+    "npm": "^5.8.0",
     "pg": "^7.4.1",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
     "tinyurl": "^1.1.2",
     "twit": "^2.2.9",
     "underscore": "^1.8.3",
-    "webbybot": "^3.2.4",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "coffeelint": "^2.1.0",
-    "hubot-test-helper": "0.0.6",
-    "mocha": "^4.1.0",
+    "hubot-test-helper": "1.9.0",
+    "mocha": "^5.0.5",
     "nock": "^9.2.3",
     "sinon": "^4.4.2"
   },
   "engines": {
-    "node": "8.9.4",
-    "npm": "5.6.0"
+    "node": "8.11.1",
+    "npm": "5.8.0"
   }
 }
