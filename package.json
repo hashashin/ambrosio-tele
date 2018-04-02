@@ -17,7 +17,7 @@
     "date-utils": "^1.2.21",
     "dota2-heroes": "^1.4.0",
     "githubot": "^1.0.1",
-    "hubot": "github:hashashin/hubot",
+    "hubot": "^3.0.0",
     "hubot-4chan": "0.0.1",
     "hubot-at": "^0.0.4",
     "hubot-binario": "^0.1.0",
@@ -114,7 +114,7 @@
     "hubot-steam-webapi": "^2.2.0",
     "hubot-suggest": "1.0.0",
     "hubot-task-manager": "^0.9.1",
-    "hubot-telegram": "https://github.com/hashashin/hubot-telegram/tarball/webby",
+    "hubot-telegram": "^0.1.2",
     "hubot-terminal-calendar": "github:hashashin/hubot-terminal-calendar",
     "hubot-timezone": "^1.0.1",
     "hubot-traffic": "^1.1.2",
@@ -144,7 +144,6 @@
     "tinyurl": "^1.1.2",
     "twit": "^2.2.9",
     "underscore": "^1.8.3",
-    "webbybot": "^3.2.4",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "devDependencies": {
