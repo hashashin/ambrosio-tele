@@ -31,6 +31,7 @@
     "hubot-country": "^1.0.3",
     "hubot-country-time": "github:haroldputman/hubot-country-time",
     "hubot-cron-checker": "^0.1.0",
+    "hubot-crypto": "^0.5.0",
     "hubot-currency": "^1.0.1",
     "hubot-debpkg": "^1.0.3",
     "hubot-devopsreactions": "github:hashashin/hubot-devopsreactions",
