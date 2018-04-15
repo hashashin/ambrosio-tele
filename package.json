@@ -20,7 +20,7 @@
     "hubot-at": "^0.0.4",
     "hubot-binario": "^0.1.0",
     "hubot-bitcoin": "^1.0.3",
-    "hubot-bookmark": "0.0.4",
+    "hubot-bookmark": "0.0.5",
     "hubot-brain-inspect": "0.0.1",
     "hubot-bropages": "^0.0.2",
     "hubot-business-cat": "^1.5.14",
@@ -138,7 +138,7 @@
     "libxmljs": "^0.18.7",
     "lodash": "^4.17.5",
     "mem-stat": "^1.0.5",
-    "moment": "^2.20.1",
+    "moment": "^2.22.1",
     "nodepie": "^0.7.0",
     "npm": "^5.8.0",
     "pg": "^7.4.1",
@@ -154,7 +154,7 @@
     "coffeelint": "^2.1.0",
     "hubot-test-helper": "1.9.0",
     "mocha": "^4.1.0",
-    "nock": "^9.2.3",
+    "nock": "^9.2.5",
     "sinon": "^4.4.2"
   },
   "engines": {
