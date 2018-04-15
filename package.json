@@ -9,6 +9,7 @@
     "node_modules"
   ],
   "dependencies": {
+    "chess": "^0.2.8",
     "chrono-node": "^1.3.5",
     "coffee-script": "1.12.7",
     "date-utils": "^1.2.21",
@@ -25,6 +26,7 @@
     "hubot-business-cat": "^1.5.14",
     "hubot-calculator": "^0.4.0",
     "hubot-catnames": "^1.0.0",
+    "hubot-chess": "0.0.1",
     "hubot-cleverbot-api": "github:lucasvanhalst/hubot-cleverbot",
     "hubot-codenames": "github:mudge/hubot-codenames",
     "hubot-cool-ascii-faces": "^1.2.0",
