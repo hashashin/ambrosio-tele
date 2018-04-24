@@ -31,5 +31,5 @@ before_script:
   - psql -c 'create database storage;' -U postgres
   - psql -c "CREATE TABLE hubot ( id CHARACTER VARYING(1024) NOT NULL, storage JSON, CONSTRAINT hubot_pkey PRIMARY KEY (id)); INSERT INTO hubot VALUES(1, NULL);" -U postgres storage
 before_install:
-  - npm install -g npm@'=5.8.0'
+  - npm install -g npm@'=6.0.0'
   - npm --version
