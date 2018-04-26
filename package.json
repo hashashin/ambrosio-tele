@@ -82,6 +82,7 @@
     "hubot-nba": "^1.5.1",
     "hubot-nietzche": "^1.0.0",
     "hubot-npm-tips": "^1.0.2",
+    "hubot-octocat": "^0.2.0",
     "hubot-pagespeed": "0.0.5",
     "hubot-piptools": "github:achiku/hubot-piptools",
     "hubot-placeholdit": "^1.0.2",
