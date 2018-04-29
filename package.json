@@ -51,7 +51,6 @@
     "hubot-github-merge": "^1.0.0",
     "hubot-github-repo-event-notifier": "https://github.com/hubot-scripts/hubot-github-repo-event-notifier/tarball/master",
     "hubot-github-status": "^0.2.1",
-    "hubot-githuber": "^0.1.2",
     "hubot-google-images": "^0.2.7",
     "hubot-google-news": "git+https://github.com/hashashin/hubot-google-news.git",
     "hubot-google-tts": "^1.0.2",

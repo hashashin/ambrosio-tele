@@ -35,7 +35,6 @@
   "hubot-github-merge",
   "hubot-github-repo-event-notifier",
   "hubot-github-status",
-  "hubot-githuber",
   "hubot-google-images",
   "hubot-google-news",
   "hubot-google-tts",
