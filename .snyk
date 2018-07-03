@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:http-signature:20150122':
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request > http-signature:
+        patched: '2018-07-03T01:53:32.602Z'
+  'npm:lodash:20180130':
+    - hubot-debpkg > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
+    - hubot-http-status > cheerio > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
+    - hubot-slack > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
+    - hubot-incoming-webhook > npm > cli-table2 > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
+    - hubot-incoming-webhook > npm > npm-audit-report > cli-table2 > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
+    - npm > cli-table2 > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
+    - npm > npm-audit-report > cli-table2 > lodash:
+        patched: '2018-07-03T01:53:32.602Z'
