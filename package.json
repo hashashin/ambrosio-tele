@@ -31,7 +31,7 @@
     "hubot-country": "^1.0.3",
     "hubot-country-time": "github:haroldputman/hubot-country-time",
     "hubot-cron-checker": "^0.1.0",
-    "hubot-crypto": "^0.5.1",
+    "hubot-crypto": "^0.5.2",
     "hubot-currency": "^1.0.1",
     "hubot-debpkg": "^1.0.3",
     "hubot-devopsreactions": "github:hashashin/hubot-devopsreactions",
@@ -104,7 +104,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-seen": "^1.0.1",
     "hubot-shipit": "github:hashashin/hubot-shipit",
-    "hubot-slack": "^4.5.2",
+    "hubot-slack": "^4.5.3",
     "hubot-soccer": "^1.0.0",
     "hubot-speed-test": "^1.0.1",
     "hubot-spotify-me": "^1.0.1",
@@ -138,7 +138,7 @@
     "mem-stat": "^1.0.5",
     "moment": "^2.22.2",
     "nodepie": "^0.7.0",
-    "npm": "^6.1.0",
+    "npm": "^6.2.0",
     "pg": "^7.4.3",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
@@ -157,6 +157,6 @@
   },
   "engines": {
     "node": "8.11.3",
-    "npm": "6.1.0"
+    "npm": "6.2.0"
   }
 }
