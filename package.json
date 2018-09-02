@@ -35,7 +35,7 @@
     "hubot-currency": "^1.0.1",
     "hubot-debpkg": "^1.0.3",
     "hubot-devopsreactions": "github:hashashin/hubot-devopsreactions",
-    "hubot-diagnostics": "0.0.2",
+    "hubot-diagnostics": "1.0.0",
     "hubot-dns-watch": "https://github.com/hashashin/hubot-dns-watch/tarball/mystuff",
     "hubot-domain-me": "^2.0.2",
     "hubot-dragonball": "^1.0.1",
@@ -56,7 +56,7 @@
     "hubot-google-tts": "^1.0.2",
     "hubot-hashme": "^0.5.1",
     "hubot-hearthstone": "https://github.com/hashashin/hubot-hearthstone/tarball/master",
-    "hubot-help": "^0.2.2",
+    "hubot-help": "^1.0.1",
     "hubot-heroku-deploy-notifier": "github:hashashin/hubot-heroku-deploy-notifier",
     "hubot-howdoi": "^1.0.2",
     "hubot-http-status": "^0.2.2",
@@ -99,7 +99,7 @@
     "hubot-roman-numerals": "^1.0.0",
     "hubot-rot13": "github:bouzuya/hubot-rot13",
     "hubot-rss-reader": "https://github.com/hashashin/hubot-rss-reader/tarball/iconv-lite",
-    "hubot-rules": "^0.1.2",
+    "hubot-rules": "^1.0.0",
     "hubot-schedule": "^0.6.1",
     "hubot-scripts": "^2.17.2",
     "hubot-seen": "^1.0.1",
@@ -132,13 +132,12 @@
     "hubot-xkcd": "https://github.com/hashashin/hubot-xkcd/tarball/master",
     "hubot-youtube": "^1.1.1",
     "hubot-youtube-feed": "0.0.6",
-    "jsdom": "^11.12.0",
-    "libxmljs": "^0.19.1",
+    "jsdom": "^12.0.0",
+    "libxmljs": "^0.19.5",
     "lodash": "^4.17.10",
     "mem-stat": "^1.0.5",
     "moment": "^2.22.2",
     "nodepie": "^0.7.0",
-    "npm": "^6.3.0",
     "pg": "^7.4.3",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
@@ -152,11 +151,11 @@
     "coffeelint": "^2.1.0",
     "hubot-test-helper": "1.9.0",
     "mocha": "^5.2.0",
-    "nock": "^9.6.0",
-    "sinon": "^5.0.10"
+    "nock": "^9.6.1",
+    "sinon": "^6.1.5"
   },
   "engines": {
-    "node": "8.11.3",
-    "npm": "6.3.0"
+    "node": "8.11.4",
+    "npm": "6.4.1"
   }
 }
