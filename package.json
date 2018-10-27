@@ -144,7 +144,8 @@
     "tinyurl": "^1.1.2",
     "twit": "^2.2.11",
     "underscore": "^1.9.1",
-    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
+    "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master",
+    "snyk": "^1.105.0"
   },
   "devDependencies": {
     "coffeelint": "^2.1.0"
@@ -152,5 +153,10 @@
   "engines": {
     "node": "8.12.0",
     "npm": "6.4.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
