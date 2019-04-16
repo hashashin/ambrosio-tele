@@ -1,0 +1,95 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - hubot-geo > hubot > express > connect > serve-static > send > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-ssl-certificate-expiration-check > mocha > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > send > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > finalhandler > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > morgan > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > compression > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > body-parser > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > connect-timeout > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > express-session > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-index > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > debug:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:hawk:20160119':
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request > hawk:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:http-signature:20150122':
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request > http-signature:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:lodash:20180130':
+    - hubot-debpkg > lodash:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-http-status > cheerio > lodash:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-incoming-webhook > npm > cli-table2 > lodash:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:mime:20170907':
+    - hubot-geo > hubot > express > send > mime:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-static > send > mime:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:minimatch:20160620':
+    - hubot-ssl-certificate-expiration-check > mocha > glob > minimatch:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:ms:20170412':
+    - hubot-ssl-certificate-expiration-check > mocha > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > send > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > send > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > connect-timeout > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-index > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > compression > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > body-parser > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > express-session > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > morgan > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-static > send > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-favicon > ms:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:negotiator:20160616':
+    - hubot-geo > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2019-04-16T05:27:24.995Z'
+    - hubot-geo > hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:request:20160119':
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request:
+        patched: '2019-04-16T05:27:24.995Z'
+  'npm:tunnel-agent:20170305':
+    - hubot-pagespeed > psi > gpagespeed > googleapis > request > tunnel-agent:
+        patched: '2019-04-16T05:27:24.995Z'
