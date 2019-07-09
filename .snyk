@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-slack > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-country > countryjs > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-slack > @slack/client > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-urban-dict > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-keys > grunt > grunt-legacy-log > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-keys > grunt > grunt-legacy-util > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-github-contribution-stats > github-contribution-stats > cheerio > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-iss > node-geocoder > request-promise > request-promise-core > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
+    - hubot-keys > grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2019-07-09T05:27:21.760Z'
