@@ -9,5 +9,8 @@ PLATFORMS
 DEPENDENCIES
   classnamer
 
+RUBY VERSION
+   ruby 2.5.5p157
+
 BUNDLED WITH
-   1.15.2
+   1.17.3
