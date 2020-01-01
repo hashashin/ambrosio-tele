@@ -1,0 +1,86 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - hubot-devopsreactions > hubot > express > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > send > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > finalhandler > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > morgan > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-index > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > body-parser > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > compression > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > connect-timeout > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > express-session > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-static > send > debug:
+        patched: '2020-01-01T03:01:48.800Z'
+  'npm:hoek:20180212':
+    - hubot-reaction > request > hawk > hoek:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-reaction > request > hawk > boom > hoek:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-reaction > request > hawk > sntp > hoek:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-reaction > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-01T03:01:48.800Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - hubot-slack > @slack/client > https-proxy-agent:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-speed-test > speedtest-net > https-proxy-agent:
+        patched: '2020-01-01T03:01:48.800Z'
+  'npm:mime:20170907':
+    - hubot-devopsreactions > hubot > express > send > mime:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-static > send > mime:
+        patched: '2020-01-01T03:01:48.800Z'
+  'npm:ms:20170412':
+    - hubot-devopsreactions > hubot > express > send > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > send > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > connect-timeout > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-index > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > body-parser > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > compression > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > express-session > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > morgan > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-static > send > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-favicon > ms:
+        patched: '2020-01-01T03:01:48.800Z'
+  'npm:negotiator:20160616':
+    - hubot-devopsreactions > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2020-01-01T03:01:48.800Z'
+    - hubot-devopsreactions > hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2020-01-01T03:01:48.800Z'
+  'npm:tunnel-agent:20170305':
+    - hubot-reaction > request > tunnel-agent:
+        patched: '2020-01-01T03:01:48.800Z'
