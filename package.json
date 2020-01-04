@@ -104,7 +104,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-seen": "^1.0.1",
     "hubot-shipit": "github:hashashin/hubot-shipit",
-    "hubot-slack": "^4.7.1",
+    "hubot-slack": "github:slackapi/hubot-slack",
     "hubot-soccer": "^1.0.0",
     "hubot-speed-test": "^1.0.1",
     "hubot-spotify-me": "^1.0.1",
