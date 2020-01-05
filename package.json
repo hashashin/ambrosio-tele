@@ -142,7 +142,7 @@
     "pg": "^7.17.0",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
-    "tinyurl": "^1.1.4",
+    "tinyurl": "^1.1.5",
     "twit": "^2.2.11",
     "underscore": "^1.9.1",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
