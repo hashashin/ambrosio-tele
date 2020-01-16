@@ -86,7 +86,7 @@
     "hubot-piptools": "github:achiku/hubot-piptools",
     "hubot-placeholdit": "^1.0.2",
     "hubot-pokemon": "^0.4.7",
-    "hubot-postgres-brain": "github:changhaitravis/hubot-postgres-brain",
+    "hubot-postgres-brain": "github:hashashin/hubot-postgres-brain",
     "hubot-pr-status": "^0.1.2",
     "hubot-pugme": "github:hashashin/hubot-pugme",
     "hubot-pwned": "^0.1.0",
