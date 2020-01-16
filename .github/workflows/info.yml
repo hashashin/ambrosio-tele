@@ -1,0 +1,13 @@
+name: info
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: NodeJS Project Information
+      uses: gregoranders/nodejs-project-info@v0.0.1
