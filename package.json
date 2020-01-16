@@ -92,7 +92,6 @@
     "hubot-pwned": "^0.1.0",
     "hubot-pwqgen": "0.0.5",
     "hubot-qr-generator": "^1.1.1",
-    "hubot-rain-alert": "https://github.com/hashashin/hubot-rain-alert/tarball/telegram",
     "hubot-reaction": "https://github.com/hashashin/hubot-reaction/tarball/master",
     "hubot-read-tweet": "0.0.2",
     "hubot-reddit": "git+https://github.com/3ch01c/hubot-reddit.git",
