@@ -9,7 +9,7 @@
     "node_modules"
   ],
   "dependencies": {
-    "chrono-node": "^1.4.2",
+    "chrono-node": "^1.4.4",
     "coffee-script": "1.12.7",
     "date-utils": "^1.2.21",
     "dota2-heroes": "^1.6.0",
@@ -22,7 +22,7 @@
     "hubot-bookmark": "0.0.5",
     "hubot-brain-inspect": "0.0.1",
     "hubot-bropages": "^0.0.2",
-    "hubot-business-cat": "^1.5.14",
+    "hubot-business-cat": "^1.5.15",
     "hubot-calculator": "^0.4.0",
     "hubot-catnames": "^1.0.0",
     "hubot-cleverbot-api": "github:lucasvanhalst/hubot-cleverbot",
@@ -132,18 +132,18 @@
     "hubot-xkcd": "https://github.com/hashashin/hubot-xkcd/tarball/master",
     "hubot-youtube": "^1.1.1",
     "hubot-youtube-feed": "0.0.6",
-    "jsdom": "^16.0.0",
+    "jsdom": "^16.2.2",
     "libxmljs": "^0.19.7",
     "lodash": "^4.17.15",
     "mem-stat": "^1.0.5",
     "moment": "^2.24.0",
     "nodepie": "^0.7.0",
-    "pg": "^7.17.1",
+    "pg": "^8.0.2",
     "pypi": "git+https://github.com/lukaszb/pypi.git",
     "scraper": "https://github.com/hashashin/node-scraper/tarball/master",
     "tinyurl": "^1.1.5",
     "twit": "^2.2.11",
-    "underscore": "^1.9.2",
+    "underscore": "^1.10.2",
     "wolfram": "https://github.com/hashashin/node-wolfram/tarball/master"
   },
   "devDependencies": {
@@ -151,6 +151,6 @@
   },
   "engines": {
     "node": "11.15.0",
-    "npm": "6.13.6"
+    "npm": "6.14.4"
   }
 }
