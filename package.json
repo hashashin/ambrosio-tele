@@ -133,7 +133,7 @@
     "hubot-youtube": "^1.1.1",
     "hubot-youtube-feed": "0.0.6",
     "jsdom": "^16.2.2",
-    "libxmljs": "^0.19.7",
+    "libxmljs": "^1.0.0",
     "lodash": "^4.17.15",
     "mem-stat": "^1.0.5",
     "moment": "^2.24.0",
